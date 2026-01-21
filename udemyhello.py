@@ -39,10 +39,29 @@
 # names=["A","B"]
 # for i,v in enumerate(names):
 #     print(i,v) 
-a =["a","b"]
-b =[1,2]
-c=list(zip(a,b))
-print(c)
+# a =["a","b"]
+# b =[1,2]
+# c=list(zip(a,b))
+# print(c)
+# Find the maximum numbers in the list
+num=[3,7,2,9,5]
+def fun(num):
+    maximum=num[0]
+    for n in num:
+        print(n)
+        if n>maximum:
+            print(n,maximum)
+            maximum=n
+        print("Updated max to:", maximum)
+    
+    return maximum
+
+result =fun(num)
+print(result)        
+    
+
+ 
+
 
 
 
