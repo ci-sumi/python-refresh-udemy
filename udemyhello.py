@@ -156,3 +156,28 @@
 # for word,count in word_count.items():
 #     if count>0:
 #         print(word,count)
+# Write a Python program that:
+
+# Takes a string as input
+
+# Counts how many times each character appears
+
+# Prints only the characters that appear more than once
+
+# Ignore spaces
+text =input("Enter a word: ").lower()
+word_count ={}
+
+    
+for word in text:
+    if word=="":
+        continue
+    if word in word_count:
+        current_count = word_count[word]
+    else:
+        current_count =0
+    word_count[word] = current_count+1
+for word,count in word_count.items():
+    if count>0:
+        print("word : count",word,count)
+    
