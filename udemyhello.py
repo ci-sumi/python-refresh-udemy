@@ -227,20 +227,30 @@ Vms =[{"name":"Vm-1","status":"Running"},
 # Running VM Names:
 # vm-1
 # vm-3
-running_vm=0
-stopping_vm=0
-runnin_vms=[]
-for vm in Vms:
-    if vm["status"]=="Running":
-        running_vm+=1
-        runnin_vms.append(vm["name"])
-    elif vm["status"]=="Stopped":
-        stopping_vm+=1
+# running_vm=0
+# stopping_vm=0
+# runnin_vms=[]
+# for vm in Vms:
+#     if vm["status"]=="Running":
+#         running_vm+=1
+#         runnin_vms.append(vm["name"])
+#     elif vm["status"]=="Stopped":
+#         stopping_vm+=1
     
-print(f"Running Vms:{running_vm}")
-print(f"Stopping Vms:{stopping_vm}")
-for name in runnin_vms:
-    print(name)
+# print(f"Running Vms:{running_vm}")
+# print(f"Stopping Vms:{stopping_vm}")
+# for name in runnin_vms:
+#     print(name)
+cpu_utilization =[80,65,70,90,75]
+cpu_total=0
+for cpu in cpu_utilization:
+    cpu_total =cpu_total+cpu
+print(cpu_total)
+average_cpu_total = cpu_total/len(cpu_utilization)
+if average_cpu_total>70:
+    print("Scale up")
+else:
+    print("Scale down")
 
     
 
