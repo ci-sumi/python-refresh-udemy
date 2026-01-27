@@ -165,19 +165,82 @@
 # Prints only the characters that appear more than once
 
 # Ignore spaces
-text =input("Enter a word: ").lower()
-word_count ={}
+# text =input("Enter a word: ").lower()
+# word_count ={}
 
     
-for word in text:
-    if word=="":
-        continue
-    if word in word_count:
-        current_count = word_count[word]
-    else:
-        current_count =0
-    word_count[word] = current_count+1
-for word,count in word_count.items():
-    if count>0:
-        print("word : count",word,count)
+# for word in text:
+#     if word=="":
+#         continue
+#     if word in word_count:
+#         current_count = word_count[word]
+#     else:
+#         current_count =0
+#     word_count[word] = current_count+1
+# for word,count in word_count.items():
+#     if count>0:
+#         print("word : count",word,count)
+# Write a function that always returns 5
+
+# Sounds easy right? Just bear in mind that 
+# you can't use any of the following characters: 0123456789*+-/
+# Unique Pairs with Sum
+# Write a Python program that:
+
+# Takes a list of numbers as input from the user (comma-separated).
+
+# Takes a target sum as input.
+
+# Finds and prints all unique pairs of numbers in the list that add up to the target sum.
+
+# Each pair should be printed only once, regardless of order.
+# print("print('what to print')")
+
+# numbers = input("Enter the numbrs comma separated:").split(",")
+# numbers =[int(num) for num in numbers]
+# target=int(input("enter the target sum:"))
+
+# print(numbers)
+# print(target)
+# numbers = input("Enter the numbrs comma separated:").split(",")
+# target =int(input("Enter the target sum:"))
+# numbersre =[]
+# for num in numbers:
+#     numbersre.append(int(num))
+# numbers =numbersre
+# print(numbers)
+# seen =set()
+# pairs =[]
+# for num in numbers:
+#     complement = target-num
+#     if complement in numbers and (min(num,complement),max(num,complement)) not in seen:
+#         seen.add((min(num,complement),max(num,complement)))
+#         pairs.append((min(num,complement),max(num,complement)))
+
+# print(pairs)
+Vms =[{"name":"Vm-1","status":"Running"},
+      {"name":"Vm-2","status":"Stopped"},
+      {"name":"Vm-3","status":"Running"},
+      {"name":"Vm-4","status":"Terminated"}]
+# Running VMs: 2
+# Stopped VMs: 1
+# Running VM Names:
+# vm-1
+# vm-3
+running_vm=0
+stopping_vm=0
+runnin_vms=[]
+for vm in Vms:
+    if vm["status"]=="Running":
+        running_vm+=1
+        runnin_vms.append(vm["name"])
+    elif vm["status"]=="Stopped":
+        stopping_vm+=1
     
+print(f"Running Vms:{running_vm}")
+print(f"Stopping Vms:{stopping_vm}")
+for name in runnin_vms:
+    print(name)
+
+    
+
