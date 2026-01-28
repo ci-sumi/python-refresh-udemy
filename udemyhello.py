@@ -241,16 +241,47 @@ Vms =[{"name":"Vm-1","status":"Running"},
 # print(f"Stopping Vms:{stopping_vm}")
 # for name in runnin_vms:
 #     print(name)
-cpu_utilization =[80,65,70,90,75]
-cpu_total=0
-for cpu in cpu_utilization:
-    cpu_total =cpu_total+cpu
-print(cpu_total)
-average_cpu_total = cpu_total/len(cpu_utilization)
-if average_cpu_total>70:
-    print("Scale up")
-else:
-    print("Scale down")
+# cpu_utilization =[80,65,70,90,75]
+# cpu_total=0
+# for cpu in cpu_utilization:
+#     cpu_total =cpu_total+cpu
+# print(cpu_total)
+# average_cpu_total = cpu_total/len(cpu_utilization)
+# if average_cpu_total>70:
+#     print("Scale up")
+# else:
+#     print("Scale down")
 
-    
+
+
+
+# 4. Write a program to take a number as input and display its square and cube.
+
+# 1. Write a Python program to print 'Welcome to Python Programming'.
+# print("welcome to python progaramming")
+# 2. Write a program to take user name as input and print a greeting message.
+# name =input("Enter your name:")
+# print(f"welcome {name} to python programming")
+# 3. Write a program to take two numbers as input and print their sum, difference, product, and
+# # division.
+# number1 =int(input("Enter te first number:"))
+# number2 = int(input("Enter the second number:"))
+# sum=number1+number2
+# diff = number2-number1
+# product = number1* number2
+# division = number2/number1
+# print(sum)
+# print(diff)
+# print(product)
+# print(diff)
+# print(division)
+# 4. Write a program to take a number as input and display its square and cube.
+# number1 = int(input("Enter a number:"))
+# square_root = number1**2
+# cube_root = number1**3
+# print (f"square_root of a number,cube_root ",square_root,cube_root)
+
+# 5. Write a program to take user age as input and print it.
+# age = int(input("Enter your age:"))
+# print(f"your age is:{age}")
 
