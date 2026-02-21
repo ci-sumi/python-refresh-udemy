@@ -284,4 +284,23 @@ Vms =[{"name":"Vm-1","status":"Running"},
 # 5. Write a program to take user age as input and print it.
 # age = int(input("Enter your age:"))
 # print(f"your age is:{age}")
+# Write a Python function that takes a list of integers and returns a new list containing only the numbers that appear more than once, without duplicates in the result.
 
+#Input: [1, 2, 3, 2, 4, 5, 1, 6]
+# n=[1, 2, 3, 2, 4, 5, 1, 6]
+# s =[]
+# for i in n:
+#       if n.count(i)>1 and i not in s:
+#             s.append(i)
+# print(s)
+def find_duplicate(n):
+      s=[]
+      for i in n:
+            if n.count(i)>0 and i not in s:
+                  s.append(i)
+      return s
+
+numbers=[1,2,3,3]
+print(find_duplicate(numbers))
+
+            
