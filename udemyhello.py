@@ -293,14 +293,68 @@ Vms =[{"name":"Vm-1","status":"Running"},
 #       if n.count(i)>1 and i not in s:
 #             s.append(i)
 # print(s)
-def find_duplicate(n):
-      s=[]
-      for i in n:
-            if n.count(i)>0 and i not in s:
-                  s.append(i)
-      return s
+# def find_duplicate(n):
+#       s=[]
+#       for i in n:
+#             if n.count(i)>0 and i not in s:
+#                   s.append(i)
+#       return s
 
-numbers=[1,2,3,3]
-print(find_duplicate(numbers))
+# numbers=[1,2,3,3]
+# print(find_duplicate(numbers))
 
+# Write a Python function that takes a string and returns True if it is a palindrome, and False otherwise. 
+# def palindrome_or_not(n):
+#       s =(n[::-1])
+#       if s==n:
+#             return True
+#       else:
+#             return False
+      
             
+                    
+# word =input("Enter the word:").lower()
+# result= palindrome_or_not(word)
+# print(result)
+
+
+#Write a program function that takes a list of numbers and returns the  largest
+
+# def largest(n):
+#       max=n[0]
+#       for i in n:
+#             if i>max:
+#                   max=i
+#       return max
+
+# print(largest([1,2,3,4]))
+#Write a program function that takes a list of numbers and returns the second largest
+
+
+# def second_largest(n):
+#       largest=n[0]
+#       second_largest=n[0]
+#       for i in n:
+#             if i>largest:
+#                   second_largest=largest
+#                   largest=i
+#             elif i>second_largest and i!=largest:
+#                   second_largest=i
+#       return second_largest
+
+# print(second_largest([1,2,3,4]))
+#fstring
+# sumi="Helllo sumi"
+# print(f"hello{sumi}")
+#Strings
+# first_name="Bro"
+# food="pizza"
+# email="hello@gmail.com"
+# #Integers
+# age=37
+# quantity=3
+# # print(f"You are {age}old")
+# print(f"You are buying {quantity} items")
+# print("------")
+# print(f"You are buying {quantity} items")
+
