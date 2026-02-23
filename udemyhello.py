@@ -357,4 +357,147 @@ Vms =[{"name":"Vm-1","status":"Running"},
 # print(f"You are buying {quantity} items")
 # print("------")
 # print(f"You are buying {quantity} items")
+#Float
+# price =10.99
+# gpa = 3.2
+# print(f"The price is ${price}")
+# print(f"Your gpa is {gpa}")
+#Boolean
+# is_student =True
+# print(f"Are you a student:{is_student}")
+# if is_student:
+#       print("You are a student")
+# else:
+#       print("You are not a student")
+#Key ponts about for loops
+# for variable in sequences:
+#Iterate over a list
+# numbers=[1,2,3,4]
+# for i in numbers:
+#       print(numbers)
+# for letter in "python":
+#       print(letter)
+# for i in range(5):
+#       print(i)
+# Sum of first N numbers
+# Input: N = 5
+# Output: 1 + 2 + 3 + 4 + 5 = 15
 
+# sum=0
+# for i in range(1,6):
+#       sum=sum+i
+# print(sum)
+      
+
+# Print even numbers from 1 to 20
+# for i in range(1,21):
+#       if i%2==0:
+#             print(i)
+#       else:
+#             continue
+
+# Find the largest number in a list
+# Input: [3, 7, 2, 9, 5] → Output: 9
+# n=[3, 7, 2, 9, 5]
+# max=n[0] 
+# for i in [3,7,2,9,5]:
+#       if i>max:
+#             max=i
+
+# print(max)
+      
+
+# Reverse a string using a loop
+# Input: "Python" → Output: "nohtyP"
+string ="python"
+# revers=(string[::-1])
+# print(revers)
+# reverse_string=""
+
+# for char in string:
+#             reverse_string = char+reverse_string
+# print(reverse_string)
+
+      
+
+# Nested loop problem:
+# Print a 5x5 multiplication table
+# for i in range(1,6):
+#       for j in range(1,6):
+#             print(i*j,end=" ")
+#       print()
+      
+#Typecasting  is the process of converting a variable from one datatype to another
+#str(),int(),float(),bool()
+# name=""
+# age=37
+# gpa=3.2
+# is_student =True
+
+# gpa=int(gpa)
+# print(type(gpa))
+# age=float(age)
+# print(age)
+# age=str(age)
+# print(type(age))
+# age=age+"1"
+# print(age)
+# name=bool(name)
+# print(name)
+#Write a program that counts vowels in a string
+# input ="pythonu"
+# vowels=["a","e","i","o","u"]
+# count=0
+# string=""
+# for char in input:
+#       if char in vowels:
+#             count+=1
+#             string=char+string
+# print(count,string)
+# Find the sum of even numbers from 1 to 50.
+# sum=0
+# for i in range(1,51):
+#       if i%2==0:
+#             sum=sum+i
+# print(sum)
+            
+# Count how many numbers are greater than 10.
+# numbers = [4, 12, 7, 18, 3, 25]
+# count=0
+# for i in numbers:
+#       if i>10:
+#             count=count+1
+# print(count)
+# Find the Second Smallest Number
+# number=[1,2,3]
+# largest=number[0]
+# second_largest=number[0]
+# for i in number:
+#       if i>largest:
+#             second_largest=largest
+#             largest=i
+            
+#       elif i>second_largest and second_largest!=largest:
+#             second_largest=i
+# print(second_largest)
+# //print pattern
+# for i in range(1,6):
+#             print(i*"*",end="")
+#             print()
+# Remove Duplicates From a List
+# numbers = [1, 2, 2, 3, 4, 4, 5]
+# list=[]
+# for i in numbers:
+#       if i not in list:
+#             list.append(i)
+             
+            
+# print(list)
+# Find the Most Frequent Character in a String
+
+            
+            
+            
+            
+            
+            
