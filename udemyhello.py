@@ -493,7 +493,69 @@ string ="python"
              
             
 # print(list)
+
+#input
+# name=input("Enetr your name:? ")
+# print(f"hello {name}")
+# age =int(input("How old are you? "))
+# age=age+1
+# print(f"you are {age} old")
+# print("Happy Birthday")
+#Rectange area calculation
+# length=int(input("Enter the rectangle length:"))
+# width=int(input("Enter the width of the rectangle:"))
+# area=length*width
+# print(f"Area of Rectangle is {area}cm")
+#Exercise 2 shopping cart Program
+# item=input("Enter the item you woud like to buy:?")
+# price=float(input("Enter the price of item:? "))
+# quantity =float(input("Enter the numbers you want:? "))
+# total=price*quantity
+# print(f"You have bought {item}x {quantity}/s")
+# total = print(f"The total is ${total}")
 # Find the Most Frequent Character in a String
+# input ="programming"
+# char_input={}
+# for char in input:
+#       if char in char_input:
+#             char_input[char]+=1
+#       else:
+#             char_input[char]=1
+
+# max_count=0
+# char_fre=""
+# for char,count in char_input.items:
+#       if count>max_count:
+#             max_count=count
+#             char_fre=char
+# print(f"Most frequent character:{max_count}{char_fre}")
+##Madlib game
+# adjective1=input("Enter an adjective(description)")
+# noun1=input("Enter a noun-person or place or thing")
+# adjective2=input("Enter an adjective(description)")
+# verb1=input("Enter a verb ending with 'ing'")
+# adjective3=input("Enter an adjective (description)")
+
+# print(f"I went to a {adjective1}house")
+# print(f"In an exhibit,i saw a {noun1}")
+# print(f"{noun1} was {adjective2} and {verb1}")
+# print(f"i was {adjective3}")
+input="programming"
+char_count={}
+for char in input:
+      if char in char_count:
+            char_count[char]+=1
+      else:
+            char_count[char]=1
+max_count=0
+char_fre=""
+for char,count in char_count.items():
+      if count>=max_count:
+            max_count=count
+            char_fre=char
+      print(f"the frequent letter {char_fre} and count {max_count}")
+
+            
 
             
             
