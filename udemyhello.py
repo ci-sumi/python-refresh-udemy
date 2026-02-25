@@ -540,25 +540,88 @@ string ="python"
 # print(f"In an exhibit,i saw a {noun1}")
 # print(f"{noun1} was {adjective2} and {verb1}")
 # print(f"i was {adjective3}")
-input="programming"
-char_count={}
-for char in input:
-      if char in char_count:
-            char_count[char]+=1
-      else:
-            char_count[char]=1
-max_count=0
-char_fre=""
-for char,count in char_count.items():
-      if count>=max_count:
-            max_count=count
-            char_fre=char
-      print(f"the frequent letter {char_fre} and count {max_count}")
-
-            
-
-            
-            
+# input="programming"
+# char_count={}
+# for char in input:
+#       if char in char_count:
+#             char_count[char]+=1
+#       else:
+#             char_count[char]=1
+# max_count=0
+# char_fre=""
+# for char,count in char_count.items():
+#       if count>=max_count:
+#             max_count=count
+#             char_fre=char
+#       print(f"the frequent letter {char_fre} and count {max_count}")
+# friends=9
+# friends+=1
+# print(friends)
+# friends-=2
+# print(friends)
+# friends*=5
+# print(friends)
+# friends/=2
+# print(friends)
+# friends**=3
+# print(friends)
+# friends%=2
+# print(friends)
+x=3.14
+y=4
+z=5
+# result=round(x)
+# print(result)
+# result=abs(y)
+# print(result)
+# result=pow(y,3)
+# print(result)
+# result=max(x,y,z)
+# print(result)
+import math
+# print(math.pi)
+# print(math.e)
+x=81.5
+# result=math.sqrt(x)
+# print(result)
+# result=math.ceil(x)
+# print(result)
+# result=math.floor(x)
+# print(result)
+#circumferences of a circle
+# import math
+# radius=int(input("Enter the radius of the circle?:"))
+# circumference=2*math.pi*radius
+# print(f"The circumference of a circle is {round(circumference,2)}cm")
+#Area of a circle
+#2pir
+# import math
+# radius=float(input("Enter the radius of a circle:?"))
+# area=2*math.pi*pow(radius,2)
+# print(f"The are of the circle {round(area,2)}")
+#hy of a triangle
+# import math
+# a=float(input("Enter the value of a:?"))
+# b=float(input("Enter the value of b:?"))
+# c=math.sqrt((pow(a,2)+pow(b,2)))
+# print(c)
+#Print all the elements in the list
+#To do
+#1️⃣ Print all elements in a list 
+# 2️⃣ Print first and last element 
+# 3️⃣ Count even numbers
+# 4️⃣ Find sum of elements 
+# 5️⃣ Find average 
+# 6️⃣ Reverse a list (without reverse())
+# 7️⃣ Find maximum number 
+# 8️⃣ Find minimum number
+# 9️⃣ Check if element exists 
+# 🔟 Replace an element at a specific index
+numbers = [10, 25, 4, 8, 15, 3, 20]
+# print(*numbers," ")
+for num in numbers:
+      print(*num,' ')
+              
             
             
             
