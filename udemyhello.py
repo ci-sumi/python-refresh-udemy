@@ -617,12 +617,441 @@ x=81.5
 # 8️⃣ Find minimum number
 # 9️⃣ Check if element exists 
 # 🔟 Replace an element at a specific index
-numbers = [10, 25, 4, 8, 15, 3, 20]
-# print(*numbers," ")
-for num in numbers:
-      print(*num,' ')
-              
+# numbers = [10, 25, 4, 8, 15, 3, 20]
+# # print(*numbers," ")
+# for num in numbers:
+#       print(*num,' ')
+# cars=['volvo','bmw','alto']
+# cars.sort(reverse=True)
+# # for i in cars:
+# #       print(i)
+# print(cars)
+# 2️⃣ Print first and last element
+# numbers= [10,20,30]
+# n1=numbers[0]
+# n2=numbers[2]
+# print(f"First and lat number number{n1} and{n2}")
+
+#  3️⃣ Count even numbers
+# numbers = [1,2,3,4,5,6]
+# count=0
+# for i in numbers:
+#       if i%2==0:
+#             count+=1
+# print(f"The number of even numbers ",count)
+# 4️⃣ Find sum of elements 
+# numbers= [1,2,3,45,6]
+# sum=0
+# for i in numbers:
+#       sum=sum+i
+# print(f"The sum of the numbers:",sum)
+
+# 5️⃣ Find average 
+# numbers= [1,2,3,45,6]
+# sum=0
+# for i in numbers:
+#       sum=sum+i
+# avg=sum/len(numbers)
+# print(f"The avg of numers is",sum,avg)
+# 6️⃣ Reverse a list (without reverse())
+# numbers =[1,2,34,5]
+# reversed_list=numbers[::-1]
+# print("The reverse_list",reversed_list)
+
+# Find maximum number
+# numbers = [10, 25, 4, 8, 15, 3, 20]
+# max=numbers[0]
+# min=numbers[0]
+# for i in numbers:
+#       if i>max:
+#             max=i
+#       if i<min:
+#             min=i
             
+# print(f"The maximum numer in the list is",max,min)
+
+# # 9️⃣ Check if an element exists in a list
+# numbers = [10, 25, 4, 8, 15, 3, 20]
+# if 14 in numbers:
+#       print("The number is found")
+# else:
+#       print("The number is not found")
+
+# numbers=[]
+# for i in input().split():
+#       numbers.append(i)
+# print("The list",numbers)
+# index=int(input("Enter the index value:"))
+# value_replace=int(input("Enter a  new value"))
+# numbers[index]=value_replace
+
+# print("The new numbers list",numbers)
+
+# numbers = list(map(int,input("Enter the numbers:").split(",")))
+# print(numbers)
+# index=int(input("Enter the index value:"))
+# value=int(input("Enter the value:"))
+# if 0<=index and index<=len(numbers):
+#       print("condition is true")
+#       numbers.insert(index,value)
+# print(numbers)
+# Take a list of numbers and remove all duplicates.
+# numbers=list((map(int,input("Enter the numbers:?").split(","))))
+# print(numbers)
+# checke_list=[]
+# for i in numbers:
+#       if i not in checke_list:
+#             checke_list.append(i)
+# print(checke_list)
+
+# Intermediate Level
+
+# Take a list of numbers and remove all duplicates.
+
+# Find the largest and smallest number in a list without using max() or min().
+
+# Merge two lists entered by the user and sort them in ascending order.
+
+# Take a list of numbers and create a new list with squares of each number.
+
+# Take a list and insert a value at a specific index (like the problem we just fixed).
+
+# Challenging Level
+
+# Find the second largest number in a list.
+
+# Take a list of strings and sort them by length.
+
+# Take a list of numbers and shift all zeros to the end while keeping the order of other numbers.
+
+# Take a list and split it into two halves. If the list has an odd number of elements, the first half should have one more element.
+
+# Implement a simple stack using a list and perform push and pop operations based on user input.
+      
+# thislist=["apple","banana","cherry"]
+# for i in range(len(thislist)):
+#       print(thislist[i])
+# thislist=["apple","banana","cherry"]
+# i=0
+# while i<len(thislist):
+#       print(thislist[i])
+#       i=i+1
+# thislist=["appple","banana","cherry"]
+# [print(x) for x in thislist]
+# List Comprehension
+# fruits= ["apple","banana","cherry","mango"]
+# newlist=[]
+# for x in fruits:
+#       if "a" in x:
+#             newlist.append(x)
+# print(newlist)
+# fruits=["apple","banana","cherry","kiwi","mango"]
+# new_list=[x for x in fruits if "a" in x]
+# print(new_list)
+# fruits=["apple","banana","cherry","kiwi","mango"]
+# new_list=[x for x in fruits if "apple" !=x]
+# print(new_list)
+# fruits=["apple","banana","cherry","kiwi","mango"]
+# new_list=[x for x in fruits]
+# print(new_list)
+# new_list=[x for x in range(10) if x<5]
+# print(new_list)
+# fruits=["apple","banan","cherry","kiwi","mango"]
+# new_list=[x.upper() for x in fruits]
+# print(new_list)
+# fruits=["apple","banana","cherry","kiwi","mango"]
+# # new_list=['hello' for x in fruits]
+# # print(new_list)
+# new_list=[x if x!='banana' else 'orange' for x in fruits]
+# print(new_list)
+#Calculator program
+# operator =input("Enter the option '+ - * / %' ")
+# input1 =float(input("Enter the first value:? "))
+# input2= float(input("Enter the second value:? "))
+# if operator=="+":
+#       result=input1+input2
+# elif operator=="-":
+#       result=input1-input2
+# elif operator=="*":
+#       result=input1*input2
+# elif operator=="/":
+#       result=input1/input2
+# elif operator=="%":
+#       result=input1%input2
+# else:
+#       print(f"This {operator} is invalid")
+
+# print(f"the result of {input1},{input2} is {result}")
+# thislist=["orange","mango","kiwi","people"]
+# thislist.sort()
+# print(thislist)
+# thislist=[100,50,65,82,23]
+# thislist.sort()
+# print(thislist)
+# for i in range(3):
+#       print(i)
+      
+#Bubble sort
+# my_list=list(map(int,input("Enter the numbers for sort:").split(",")))
+# print(my_list)
+# n=len(my_list)
+# for i in range(n):
+#       swapped=False
+#       for j in range(n-i-1):
+#             if my_list[j]>my_list[j+1]:
+#                   my_list[j],my_list[j+1]=my_list[j+1],my_list[j]
+#                   swapped=True
+#       if not swapped:
+#             break
             
+# print(my_list)
+# thislist=["orange","mango","kiwi","pineapple","banana"]
+# # thislist.sort()
+# # print(thislist)
+# thislist.sort(reverse=True)
+# print(thislist)
+# def myfun(n):
+#       return abs(n-50)
+# thislist=[100,50,65,82,23]
+# thislist.sort(key=myfun)
+# print(thislist)
+# thislist=["Banana","Orange","kiwi","cherry"]
+# thislist.sort(key=str.lower)
+# print(thislist)
+# python converter
+# weight= float(input("Enter your weight:"))
+# unit=input("Enter the unit:?")
+# if unit=="k":
+#       weight=weight *2.25
+#       unit="Lbs"
+#       print(f"Your weight is:{round(weight,1)}{unit}")
+# elif unit=="L":
+#       weight=weight/2.05
+#       unit="kgs."
+#       print(f"Your weight is:{round(weight,1)}{unit}")
+# else:
+#       print(f"{unit} was not valid")
+#Copy Lists
+# thislist=["apple","banana","cherry"]
+# mylist=thislist.copy()
+# print(mylist)
+# thislist=['appple','banana','cherry']
+# my_lst=list(thislist)
+# print(my_lst)
+# thislist=["appple","banana","cherry"]
+# mylist=thislist[:]
+# print(mylist)
+#Join Lists
+# list1=["a","b","c"]
+# list2=[1,2,3]
+# list3=list1+list2
+# print(list3)
+# list1=["a","b","c"]
+# list2=[1,2,3]
+# for x in list1:
+#       list2.append(x)
+# print(list2)
+# extend()
+# list1=["a","b","c","d"]
+# list2=[1,2,3]
+# list1.extend(list2)
+# print(list1)
+# Create and print a list
+
+# Create a list of your 5 favorite fruits and print it.
+fruits=["apple","orange","mango","jackfruit","kiwi"]
+# print(fruits)
+# //Access elements
+
+# Print the first, last, and middle elements of a list:
+# print(fruits[0])
+# print(fruits[2])
+# print(fruits[4])
+# fruits.append('chakka')
+# print(fruits)
+# fruits.pop(1)
+# print(fruits)
+# # Find the number of elements in a list.
+# print(len(fruits))
+# numbers = [2, 4, 6, 8, 10]
+# sum=0
+# for i in numbers:
+#       sum=sum+i
+# print(sum)
+
+# def sum(*n):
+#       first_value=0
+#       for i in n:
+#             first_value=i+first_value
+#       return first_value
+
+# print(sum(1,2,3,4,5,6,7,8,9))
+# def my_sum(a,b,c):
+#       s=a+b+c
+#       return s
+
+# print("Total is :",my_sum(3,4,5))
+# passing of efault arguments
+# def student(name,age,grade='five',school="st'Marys"):
+#       print('student Details:',name,age,grade,school)
+      
+# student('sume',37)
+# name=input("enter your name:")
+# while(name==""):
+#       print("You didnt enter a name")
+#       name=input("enter your name:")
+
+# print(f"hai {name }")
+# Print numbers 1 to 10
+# Use a while loop to print numbers from 1 to 10.
+# x=1
+# while x<11:
+#       print(x)
+#       x=x+1
+# Sum of first n numbers
+# # Ask the user for a number n, then calculate the sum from 1 to n using a while loop.
+# number = int(input("Enter the numbers:"))
+# x=0
+# sum=0
+# while x<number:
+#       x=x+1
+#       sum=sum+x
+# print(sum)
+# Even numbers up to 20
+# Print all even numbers from 1 to 20 using a while loop.
+# x=0
+# while x<=20:
+#       if x%2==0:
+#             print(x)
+#       x=x+1
+# Countdown timer
+# Print numbers from 10 down to 1, then print "Blast off!".
+# x=10
+# while x>=1:
+#       print(x)
+#       x=x-1
+# print("Blastoff")
+# Multiplication table
+# Ask the user for a number and print its multiplication table up to 10.
+# n=int(input("Enter the number:"))
+# i=1
+# while i<=10:
+#       print(n,"x",i,"=",n*i)
+#       i=i+1
+# Reverse a number
+# Example: input 1234 → output 4321 (using a while loop).
+# number=int(input("Enter the number:"))
+# reverse=0
+# while number>0:
+#       digit=number%10
+#       reverse=reverse*10+digit
+      
+#       number=number//10
+# print(reverse)
+# Count digits
+# Ask for a number and count how many digits it has.
+# number=int(input("Enter the number:"))
+# count=0
+# reverse=0
+# while number>0:
+#       digit=number%10
+#       reverse=reverse*10+digit
+#       count=count+1
+#       number=number//10
+# print(count)
+# Sum of digits
+# Example: input 123 → output 6.
+
+# number=int(input("Enter the number:"))
+# sum=0
+# while number>0:
+#       digit=number%10
+#       sum=sum+digit
+#       number=number//10
+# print(sum)
+# number=int(input("Enter the number:"))
+# count=0
+# while number>0:
+#       digit=number%10
+#       count=count+1
+#       number=number//10
+# print(count)
+# Guess the number game
+# Generate a secret number (1–100). Keep asking the user to guess until they get it right.
+# import random
+# random_number=random.randint(1,100)
+# print(random_number)
+# number=int(input("Enter the guess number:"))
+# while number>0:
+#       if number!=random_number:
+#             number=int(input("Enter the guess number:"))
+#       break
+
+# print("The guessed number is correct")
+# Check for palindrome number
+# Example: 121 → palindrome, 123 → not.
+# number=int(input("Enter the number:"))
+# reverse=0
+# actual=number
+# while number>0:
+#       digit=number%10
+#       reverse=reverse*10+digit
+#       number=number//10
+
+# print(number)
+# print(reverse)
+
+# if actual==reverse:
+#       print("Its a palindrome")
+# else:
+#       print("Its not a palindrome")
+# Factorial using while loop
+# Compute n! using a while loop.
+# n=int(input("Enter the number:"))
+# i=0
+# while n>0:
+#       fact=n*(n-1)
+#       n=n-1
+# print(fact)
+# fact=0
+# n=int(input("Enter the number:"))
+# for i in n:
+#       fact=n*(n-1)
+#       i=i-1
+# print(fact)
+# Practice Problem: Write a Python function that accepts two integer numbers. 
+# If the product of the two numbers is 
+# less than or equal to 1000, return their product; otherwise, return their sum.
+      
+# def two_integers(a,b):
+#       if a*b>=1000:
+#             return a*b
+#       else:
+#             return a+b
+
+# print(two_integers(4,30))
+#  Iterate through the first 10 numbers (0–9). In each iteration, 
+#  print the current number, the previous number, and their sum.
+
+print("Printing current and previous number sum in a range(10)")
+sum=0
+for i in range(1,10):
+      p=i-1
+      sum=sum+i
+      print(f"current Number{i} previous Number{p} sum is {i+p}")
+print(sum)
+      
+      
+
+
+
+
+      
+      
+     
+
+                  
+                  
+
             
             
