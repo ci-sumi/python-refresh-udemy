@@ -1033,13 +1033,80 @@ fruits=["apple","orange","mango","jackfruit","kiwi"]
 #  Iterate through the first 10 numbers (0–9). In each iteration, 
 #  print the current number, the previous number, and their sum.
 
-print("Printing current and previous number sum in a range(10)")
-sum=0
-for i in range(1,10):
-      p=i-1
-      sum=sum+i
-      print(f"current Number{i} previous Number{p} sum is {i+p}")
-print(sum)
+# print("Printing current and previous number sum in a range(10)")
+# sum=0
+# for i in range(1,10):
+#       p=i-1
+#       sum=sum+i
+#       print(f"current Number{i} previous Number{p} sum is {i+p}")
+# print(sum)
+# n=int(input("Enter the number:"))
+# i=1
+# factorial=1
+# while i<=n:
+#       factorial=factorial*i
+#       i+=1
+# print("factorial",factorial)
+# Keep asking until valid input
+# Keep asking the user for a number greater than 0. 
+# Only stop when they enter a valid number.
+# n=int(input("Enter a value greater than 0:"))
+# while n<=0:
+#       print("You didn't enter the number greater than 0")
+#       n=int(input("Enter a value greater than 0:"))
+#       if n>0:
+#             break
+# Prime number check
+# Determine if a number is prime using a while loop. 
+
+# Print numbers 1 to 10
+# Use a for loop to print numbers from 1 to 10. 
+# for i in range(1,11):
+#       print(i)
+# Print even numbers
+# Print all even numbers from 1 to 20.
+# for i in range(1,21):
+#       if i%2==0:
+#             print(i)
+# Sum of first n numbers
+# Ask the user for n, then find the sum from 1 to n.
+# n=int(input("Enter the n:"))
+# sum=0
+# for i in range(1,n+1):
+#       sum=sum+i
+# print(sum)
+
+# Print a multiplication table
+# Ask for a number and print its table up to 10.
+# n=int(input("Enter a numer:"))
+# i=1
+# while(i<=10):
+#       print(i*n)
+#       i=i+1
+# n=int(input("Enter a number:"))
+
+# for i in range(1,11):
+#       print(i*n)
+#       i=i+1
+# Display only those characters which are present at an even index number
+# in given string.
+# input="pynative"
+# # output=input[::2]
+# # print(output)
+# for i in range(0,len(input),2):
+#       print(input[i])
+# String Slicing and Substring Removal
+# Practice Problem: Write a function to remove characters from a string starting
+# from index 0 up to n and return a new string.
+# def string_slicing(word,n):
+#       print(f"{word}")
+#       res=word[n:]
+#       return res
+
+# print(string_slicing("pynative", 4))
+# print(string_slicing("pynative", 2))
+
+
       
       
 
