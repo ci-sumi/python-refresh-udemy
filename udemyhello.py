@@ -1105,20 +1105,539 @@ fruits=["apple","orange","mango","jackfruit","kiwi"]
 
 # print(string_slicing("pynative", 4))
 # print(string_slicing("pynative", 2))
-
-
+# Factorial using for loop
+# Compute n! using a for loop.
+# n=int(input("Enter the number for finding factorial:"))
+# fact=1
+# for i in range(1,n+1):
+#       fact=fact*i
+# print(fact)
+# Reverse a number (using for loop)
+# Same as before, but try with a for loop.
+# Count digits in a number
+# n=int(input("Enter the number:"))
+# count=0
+# while n>0:
+#       n=n//10
+#       count=count+1
       
+# print(count)
+# Reverse a string
+# Example: "hello" → "olleh"
+# def reverse_string(n):
+#       reversed=n[::-1]
+#       return reversed
       
 
-
-
-
-      
-      
+# print(reverse_string("hello"))
+# input=input("Enter a string:")
+# reversed=""
+# for char in input:
+#       revers=char+reversed
      
+#       print(revers)
+#God increase me in my knowledge
 
+
+# print("Hello world")
+# Practice Problem: Write a Python function that accepts two integer numbers. If the product of the two numbers is less than or equal to 1000, return their product; otherwise, return their sum.
+
+# def product(a,b):
+#       if a*b<=1000:
+#             return a*b
+#       else:
+#             return a+b
+
+
+# a=int(input("Enter the value of a:"))
+# b=int(input("Enter the value of b:"))  
+# print(product(a,b))
+#  Cumulative Sum of a Range
+# Iterate through the first 10 numbers (0–9). In each iteration, print the current number, the previous number, and their sum.
+  
+# def cumilative():
+#       sum=0
+#       previous=0
+#       print("Printing current and previous number sum in a range(10)")
+#       for i in range(1,10):
+#             print(i)
+#             sum=previous+i
+#             previous=i
+#             print(f"Current Number{i} Previous Number {previous} Sum is {sum}")
+
+# cumilative()
+# Display only those characters which are present at an even index number in given string.
+# Understand how data is stored in memory using zero-based indexing. In most languages, the first character is at position 0, the second at 1, and so on. Mastering indexing is vital for data parsing
+# def displayeven(input_data):
+#       print(f"Original string is{input_data}")
+#       even_char=input_data[0::2]
+#       for char in even_char:
+#             print(char)
+                  
+
+
+# input_data=input("Enter a Srtring:")
+# displayeven(input_data)
+
+# String Slicing and Substring Removal
+# Practice Problem: Write a function to remove characters from a string starting from index 0 up to n and return a new string.
+     
+# def remove_string(word,n):
+#       size=len(word)
+#       remove=word[n:]
+#       return remove
+
+
+
+# word=input("Enter the word:")
+# n=int(input("Enter the position:"))
+# print(remove_string(word,n))
                   
                   
+# Write a program to swap the values of two variables, a and b, without using a third temporary variable.
+# def swap_numbers(a,b):
+#       print(f"Print the numbers before swap:a={a},b={b}")
+#       a,b=b,a
+#       print(f"Print the numbers after swap:a={a},b={b}")
+            
+# a=int(input("Enter the value of a:"))
+# b=int(input("Enter the value of b:"))
+# swap_numbers(a,b)      
+#  Write a program that calculates the factorial of a given number (e.g., 5!) using a for loop.
+# def fact_number(n):
+#       fact=1
+#       for i in range(1,n+1):
+#             fact=fact*i
+#             print(fact)
 
+# n=int(input("Enter the number:"))      
+      
+# fact_number(n)
+# Create a list of 5 fruits. Add a new fruit to the end of the list, then remove the second fruit (at index 1).
+# fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+# fruits.append("fig")
+# print(fruits)
+# fruits.remove("banana")
+# print(fruits)
+# fruits.pop(2)
+# print(fruits)
+# Write a program that takes a string and reverses it (e.g., “Python” becomes “nohtyP”).
+# word="python"
+# reverse=word[::-1]
+# print(reverse)
+# for char in reverse:
+#       print(char)
+# Practice Problem: Write a program to count the total number of vowels (a, e, i, o, u) present in a given sentence.
+# vowels=["a","e","i","o","u"]
+# Given_string="Learning Python is fun!"
+# count=0
+# for i in Given_string:
+#       if i.lower() in vowels:
+#             count=count+1
+# print(f"The number of vowels:{count}")
+# Exercise 10. Finding Extremes (Min/Max) in a List
+# Given a list of integers, find and print both the largest and the smallest numbers.
+# nums = [45, 2, 89, 12, 7]
+# i_max=nums[0]
+# i_min=nums[0]
+# for i in nums:
+#       if i>i_max:
+#             i_max=i
+#       if i<i_min:
+#             i_min=i
+# print(i_max)
+# print(i_min)
+# largest=max(nums)
+# smallest=min(nums)
+# print(largest)
+# print(smallest)
+# Removing Duplicates from a List
+# data = [1, 2, 2, 3, 4, 4, 4, 5]
+# unique_numbers=list(set(data))
+# print(data)
+# print(unique_numbers)
+# empt_list=[]
+# for i in data:
+#       if i not in empt_list:
+#             empt_list.append(i)
+# print(empt_list)
+# values='sumisumi'
+# remove_string=""
+# for char in values:
+#       if char not in remove_string:
+#             remove_string+=char
+
+# answer="".join(set(values))
             
+# print(answer)
+# values = "sumisumi"
+# result = "".join(dict.fromkeys(values))
+# print(result)
+# str_x = "Emma is good developer. Emma is a writer"
+# string_count=str_x.count("Emma")
+# print(string_count)
+# def pattern(a,b):
+#       for i in range(a,b+1):
+#             for j in range(i):
+#                   print(i,end="")
+#             print("\n")
+# a=int(input("Enter a number:"))
+# b=int(input("Enter a number:"))
+# pattern(a,b)
+
+# string="hello"
+# reversed_string=string[::-1]
+# print(reversed_string)
+# num=123
+# revese_num=str(num)
+# revese_num_answer=revese_num[::-1]
+# print(revese_num_answer)
+
+# def number(a):
+#       revers=0
+#       while a>0:
+#             digit=a%10
+#             revers=revers*10+digit
+#             a=a//10
+#       return revers
+# a=int(input("Enter a number:"))
+# print(number(a))
+# for i in range(1,11):
+#       for j in range(1,10):
+#             print(i*j,end="\t")
+#       print("")
+# for i in range(5,0,-1):
+#       for j in range(i):
+#             print("*",end=" ")
+#       print("")
+# def exponent(base,exp):
+#       num=exp
+#       result=1
+#       while num>0:
+#             result=result*base
+#             num=num-1
+#       return result
+
+# print(exponent(2,5))
+
+# def fib(n):
+#       num1=0
+#       num2=1
+#       for i in range(n):
+#             print(num1, end=" ")
+#             result=num1+num2
+#             num1=num2
+#             num2=result
+
+
+# n=int(input("enter the number:"))
+# print(fib(n))
+# dict1 = {"name": "Alice", "age": 25}
+# dict2 = {"city": "New York", "job": "Engineer"}
+
+# dic=dict1 | dict2
+# print(dic)
+# text = "apple banana apple cherry banana apple"
+# # answer=text.count("apple")
+# # print(answer)
+# word=text.split()
+# frequency={}
+# for w in  word:
+#       if w in frequency:
+#             frequency[w]+=1
+#       else:
+#             frequency[w]=1
+# print(f"{w} and frequency{frequency}")
+# import math
+# def prime(n):
+#       if n<=1:
+#             return False
+#       else:
+#             for i in range(2,int(math.sqrt(n))+1):
+#                   if n%i==0:
+#                         return False
+#             return True
+
+# n=int(input("Enter the number:"))
+# print(prime(n))
+# user_sentence= 'hello sumi'
+# answer=user_sentence.replace(" ","_")
+# print(answer)
+# rows = 6
+# # Outer loop for number of rows
+# for i in range(rows, 0, -1):
+#     # Inner loop for printing numbers in each row
+#     for j in range(i, 0, -1):
+#         print(j, end=' ')
+#     print("") # New line
+# text = "hello world from python"
+# cap =text.capitalize()
+# actual=[]
+# print(cap)
+# words=text.split()
+# for word in words:
+#       wxample=word.capitalize()
+#       actual.append(wxample)
+# print(actual)
+
+# find=" ".join(actual)
+# print(find)
+# import time
+# count=5
+# while count>0:
+#       print(count)
+#       time.sleep(1)
+#       count-=1
+# print("Blast")
+# with open("notes.txt","w") as file:
+#       file.write("Hello,this is my first note.\n")
+#       file.write("python file handling is simple.\n")
+#       file.write("End of file \n")
+# print("Reading file contents")
+# with open("notes.txt","r") as file:
+#       context=file.read()
+#       print(context)
+# try:
+#       with open("sample.txt","r") as file:
+#             words=file.read()
+#             answer=words.split()
+#             word_count=len(answer)
+#             print(word_count)
+# except FileNotFoundError:
+#       print("File not found")
+
+# class Car:
+#       def __init__(self,make,model,year):
+#             self.make=make
+#             self.model=model
+#             self.year=year
+#       def start_engine(self):
+#             print(f"The{self.year} {self.make} {self.model}")
+# my_car =Car("Toyota","camry",2022)
+# my_car.start_engine()
+# words = ["apple", "bat", "cherry", "dog", "elderberry"]
+# filtered_words=[w.upper() for w in words if len(w)>=4 ]
+# print(filtered_words)
+# def merg_dict(d1,d2):
+#       result=d1.copy()
+#       for key,value in d2.items():
+#             result[key]=result.get(key,0)+value
+#       return result
+# d1 = {'a': 10, 'b': 20}
+# d2 = {'b': 5, 'c': 15}
+
+# merged=merg_dict(d1,d2)
+# print(merged)
+
+# from collections import Counter
+# def get_frequency(input_string):
+#       clean_text=input_string.lower().replace(" ","")
+      
+#       return Counter(clean_text)
+
+# text = "Python Programming"
+# freq = get_frequency(text)
+# print(freq)
+# a=sorted("listen")
+# b=sorted("silent")
+# print(a)
+# print(b)
+# print('Name','is','James',sep="***")
+# num=8
+# print('%o'% num)
+# num=45
+# binary_value=f"{num:b}"
+# print(binary_value)
+# str1,str2,str3=input("Enter the three input values").split()
+# print('Name:',str1)
+# print('Name:',str2)
+# print('Name:',str3)
+
+# num=89
+# hex=f'{num:x}'
+# print(hex)
+# num=458.541315
+# print('%.2f'%num)
+# num=int(input("Enter numerator:"))
+# den=int(input("Enter a denominator:"))
+# result=(num/den)*100
+
+# print(f'The resultt is:{result:.2f}%')
+# Text= 'REPORT SUMMARY'
+# formatted_string=f'{Text:-^40}'
+
+# print(formatted_string)
+# i=1
+# while(i<=10):
+#       print(i)
+#       i=i+1
+
+# for i in range(-10,0,1):
+#       print(i)
+
+def sum_calculate(n):
+      sum=0
+      for i in range(1,n+1):
+            sum=sum+i
+      return sum
             
+      
+      
+# n= int(input("Enter the upto which sum has to be calculated:"))
+# final=sum_calculate(n)
+# print(final)
+# list1 = [10, 20, 30, 40, 50]
+# # reversed=list1[::-1]
+# # print(reversed)
+# size=len(list1)-1
+
+# for i in range(size,-1,-1):
+#       print(list1[i])
+# number= 75869
+# largest=0
+# smallest=9
+# while(number>0):
+#       digit=number%10
+#       largest=max(largest,digit)
+#       smallest=min(smallest,digit)
+#       number=number//10
+# print(largest)
+# print(smallest)
+# for i in range(1,6):
+#       for j in range(1,i*2):
+#             print(j,end=" ")
+#       print("")
+# for i in range(5,0,-1):
+#       for j in range(i,0,-1):
+#             print(j,end="")
+#       print("")
+# Given_Input=[1, 2, 3, 4]
+# sum=0
+# result_m=[]
+# for i in Given_Input:
+#       sum=sum+i
+#       result_m.append(sum)
+# print(result_m)
+# nums=[1,2,3,4,5]
+# k=2
+# for _ in range(k):
+#       first_element=nums.pop(0)
+#       nums.append(first_element)
+# print(nums)
+# sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+# sample_dict={}
+
+# for i in sample_list:
+#       if i in sample_dict:
+#             sample_dict[i]+=1
+#       else:
+#             sample_dict[i]=1
+# print(sample_dict)
+# first_list = [2, 3, 4, 5, 6, 7, 8]
+# print("First List ", first_list)
+# second_list = [4, 9, 16, 25, 36, 49, 64]
+# print("Second List ", second_list)
+# result = zip(first_list, second_list)
+# print(set(result))
+# speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44, 'May': 52, 'June': 53,
+#          'july': 54, 'Aug': 44, 'Sept': 54}
+# values= speed.values()
+# print(values)
+# sample_list = [87, 45, 41, 65, 94, 41, 99, 94]
+# answer_list=[]
+# for i in sample_list:
+#       if i not in answer_list:
+#             answer_list.append(i)
+# print(tuple(answer_list))
+# minimum_value=min(answer_list)
+# maximum_value=max(answer_list)
+# print(minimum_value)
+# print(maximum_value)
+# employees = ['Kelly', 'Emma']
+# defaults = {"designation": 'Developer', "salary": 8000}
+# res=dict.fromkeys(employees,defaults)
+# print(res)
+# sampleDict = { 
+#   "name": "Kelly",
+#   "age":25, 
+#   "salary": 8000, 
+#   "city": "New york" }
+
+# keys = ["name", "salary"]
+
+# newDict = {k: sampleDict[k] for k in keys}
+# print(newDict)
+# mylist = [64, 34, 25, 12, 22, 11, 90, 5]
+# n=len(mylist)
+# for i in range(n):
+#       for j in range(n-i-1):
+#             if mylist[j]>mylist[j+1]:
+#                   mylist[j],mylist[j+1]=mylist[j+1],mylist[j]
+# print(mylist)
+# Input=[1, 2, 2, 3, 4, 4, 5]
+# empt_list=[]
+# for num in Input:
+#       if num not in empt_list:
+#             empt_list.append(num)
+# print(empt_list)
+# Input=[1, 2, 2, 3, 4, 4, 5]
+# seen=[]
+# duplictaes=[]
+# for num in Input:
+#       if num in seen:
+#             if num not in duplictaes:
+#                   duplictaes.append(num)
+#       else:
+#             seen.append(num)
+# print(duplictaes)
+# Input="banana"
+# Output={'b':1, 'a':3, 'n':2}
+# result={}  
+# for i in Input:
+#       if i in result:
+#             result[i]+=1
+#       else:
+#             result[i]=1
+# print(result)
+# Write a Python function that accepts two integer numbers. If the product of the two numbers is less than or equal to 1000, 
+# return their product; otherwise, return their sum.
+# def product_sum(a,b):
+#       if(a*b<=1000):
+#             return a*b
+#       else:
+#             return a+b
+# while True:
+#       a=int(input("Enter the first number:"))
+#       b=int(input("Enter the second number:"))     
+#       if a>0 and b>0:
+#             break
+#       else:
+#             print("Enter the possitive numbers only")    
+# print(product_sum(a,b))
+
+# Cumulative Sum of a Range
+# Iterate through the first 10 numbers (0–9). In each iteration, 
+# print the current number, the previous number, and their sum.
+# def cumulative_sum(n):
+#       Previous_Number=0
+#       print("Printing current and previous number sum in a range(10)")
+#       for Current_number in range(n):
+#             Sum=Current_number+Previous_Number
+#             print(f"Current Number{Current_number} Previous Number{Previous_Number} Sum:{Sum}")
+#             Previous_Number=Current_number
+                    
+# n=int(input("Enter the range 10:"))
+# cumulative_sum(n)
+# Display only those characters 
+# which are present at an even index number in given string.
+
+# def display(a):
+#       print(f"Original string is{a}")
+#       print(f"Printing only even indexchars:")
+#       result=a[::2]
+#       for char in result:
+#             print(char)
+      
+# a=input("Enter the String:")
+
+# display(a)
