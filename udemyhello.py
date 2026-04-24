@@ -1641,3 +1641,402 @@ def sum_calculate(n):
 # a=input("Enter the String:")
 
 # display(a)
+# 
+# Write a function to remove characters from a string starting 
+# from index 0 up to n and return a new string.
+
+# def remove_char(given_string,n):
+#       result=given_string[n:]
+#       print(result)
+      
+      
+# # given_string=input("Enter a string")
+# # n=int(input("Enter the value upto "))
+# remove_char("pynative", 4)
+
+# Write a program to swap the values of two variables, 
+# a and b, without using a third temporary variable.
+# def swap(a,b):
+#       a,b=b,a
+#       print(a,b)
+      
+# a=int(input("Enter your first number:"))
+# b=int(input("Enter your second number:"))
+
+# swap(a,b)
+# Calculating Factorial with a Loop
+
+# def fact(n):
+#       fact=1
+#       for i in range(fact,n+1):
+#             fact=fact*i
+#       return fact
+
+# n=int(input("Enter the number:"))
+# print(fact(n))
+# List Manipulation: Add and Remove
+#  Create a list of 5 fruits. Add a new fruit to the end of the list, 
+#  then remove the second fruit (at index 1).
+# fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+# ex=("fig")
+# fruits.insert(5,"fig")
+
+# fruits.remove("banana")
+# print(fruits)
+# fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+# fruits.pop(3)
+
+# print(fruits)
+
+
+# def fruit_add_remove(n):
+#       fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+#       fruits.append(n)
+#       return fruits
+
+
+# n=input("Enter the fruit to add to your list:")
+# print(fruit_add_remove(n))
+
+# def remove(n):
+#       fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+#       fruits.pop(n)
+
+      
+# String Reversal
+# Write a program that takes a string and 
+# reverses it (e.g., “Python” becomes “nohtyP”).
+
+# def reverse_string(n):
+#       result_string=n[::-1]
+      
+#       for char in result_string:
+#             print(char)
+
+
+# n=input("Enter a string:")
+# reverse_string(n)
+# def count_vowels(n):
+#       vowels=['a','e','i','o','u']
+#       count=0
+
+#       for char in n:
+#             if char in vowels:
+#                   count=count+1
+#       return count
+      
+# n=input("Enter the sentence:").lower()
+# print(count_vowels(n))
+# Finding Extremes (Min/Max) in a List
+nums = [45, 2, 89, 12, 7]
+# max=nums[0]
+# min=nums[1]
+# for i in range(len(nums)):
+#       if nums[i]>nums[i+1]:
+#             max=nums[i]
+#             min=nums[i+1]
+#       else:
+#             max=nums[i+1]
+#             min=nums[i]
+# print(f"{max},{min}")
+# def max_min(nums):
+#       max=nums[0]
+#       min=nums[0]
+#       for num in nums:
+#             if num>max:
+#                   max=num
+#             if num<min:
+#                   min=num
+#       print(f"Maximum value:{max} Minimum Value is:{min}")
+      
+# nums=list(map(int,input("Enter the numbers separted by space:").split(',')))
+# max_min(nums)
+# Removing Duplicates from a List
+# def remove_duplicates(n):
+#       newlist=[]
+#       for num in n:
+#             if num not in newlist:
+#                   newlist.append(num)
+#       return newlist
+      
+      
+      
+
+# n=list(map(int,input("Enter the numbers seperated by comma:").split(",")))
+# print(remove_duplicates(n))
+# List Comparison and Boolean Logic
+
+# def comaprison(n1,n2):
+#       # n_size=len(n1)
+#       # n_size=len(n2)
+#       if n1[-1]==n2[-1]:
+#             return True
+#       else:
+#             return False
+# n1=list(map(int,input("Enter the number of lists separated by comma:").split(",")))
+# n2=list(map(int,input("Enter the number of lists separated by comma:").split(",")))
+# print(comaprison(n1,n2))
+
+# def comparison(n1):
+#       if n1[0]==n1[-1]:
+#             return True
+#       else:
+#             return False
+      
+
+
+# n1=list(map(int,input("Enter the numbers of a list comma separated:").split(",")))
+# print(comparison(n1))
+# Filtering Lists with Conditional Logic
+# def div_5(n1):
+#       new_list=[]
+#       for num in n1:
+#             if num%5==0:
+#                   new_list.append(num)
+#       return new_list
+            
+                  
+# n1=list(map(int,input("Enetr the numbers:").split(",")))
+# print(div_5(n1))
+# def count(n1):
+#       result=n1.count("writer")
+#       return result
+
+
+# n1=input("Eneter a string:")
+# print(count(n1))
+# Nested Loops for Pattern Generation
+# for i in range(1,6):
+#       for j in range(i):
+#             print(i,end="")
+#       print(" ")
+# Write a program to check 
+# if a given number is a palindrome 
+# (reads the same forwards and backwards).
+# def palindrom(n):
+#       reversed=0
+#       original=n
+#       while n>0:
+#             digit =n%10
+#             reversed=reversed*10+digit
+#             n=n//10
+#       if original==reversed:
+#             return True
+#       else:
+#             return False
+# n=int(input("Enter the number:"))
+# print(palindrom(n))
+
+
+# def Merging_list(n1,n2):
+#       my_new_list=[]
+#       for num in n1:
+#             if num%2!=0:
+#                   my_new_list.append(num)
+#       for num in n2:
+#             if num%2==0:
+#                   my_new_list.append(num)
+#       return my_new_list
+            
+# n1=list(map(int,input("Enter the numbers:").split(",")))
+# n2=list(map(int,input("Enter the numbers:").split(",")))
+# print(Merging_list(n1,n2))
+# Integer Digit Extraction and Reversal
+# def extraction(n1):
+#       while n1>0:
+#             digit=n1%10
+#             n1=n1//10
+#             print(digit,end=" ")
+                  
+# n1=int(input("Enter the number:"))
+# extraction(n1)
+# Practice Problem: Calculate income tax for a given income based on these rules:
+
+# First $10,000: 0% tax
+# Next $10,000: 10% tax
+# Remaining income: 20% tax
+
+
+# def tax(amount):
+#       tax_amount=0
+#       if amount<=10000:
+#             tax_amount=0
+#       elif amount<=20000:
+#             tax_amount=tax_amount+(amount-10000)*10/100
+#       else:
+#             tax_amount=(10000)*10/100
+#             tax_amount=tax_amount+(amount-20000)*20/100
+#       return tax_amount
+
+# amount=int(input("Enter the amount:"))
+# # tax_per=int(input("Enter the tax per_centage"))
+
+# print(tax(amount))
+      
+# # Nested Loops for Multiplication Tables
+# for i in range(1,11):
+#       for j in range (1,11):
+#             print(j*i,end=" ")
+#       print(" ")
+#  Downward Half-Pyramid Pattern
+# for i in range(5,0,-1):
+#       for j in range(i):
+#             print("*",end=" ")
+#       print(" ")
+# Custom Exponentiation Function
+# def expone(base,exp):
+#       return base ** exp
+      
+
+# base=int(input("Enter the base:"))
+# exp=int(input("Enter the exponential:"))
+
+# print(expone(base,exp))
+# Generate Fibonacci Series
+# def fibonacci(n):
+#       num1=0
+#       num2=1
+#       for i in range(n):
+#             print(num1,end=" ")
+#             res=num1+num2
+#             num1=num2
+#             num2=res
+# n=int(input("Enter the number:"))
+# fibonacci(n)
+# def leap_year(year):
+#       if (year%4==0 and year%100!=0) or (year%400==0):
+#             return "Its a leap year"
+#       else:
+#             return "Its not a leap year"
+
+# year=int(input("Enter the year:"))
+# print(leap_year(year))
+# Merging Two Dictionaries
+# dict1 = {"name": "Alice", "age": 25}
+# dict2 = {"city": "New York", "job": "Engineer"}
+
+# result=dict1|dict2
+# print(result)
+# list_a = [1, 2, 3, 4, 5]
+# list_b = [4, 5, 6, 7, 8]
+# set_a=set(list_a)
+# set_b=set(list_b)
+# common_elements=set_a & set_b
+# print(common_elements)
+
+# def splitter(n1):
+#       odd_list=[]
+#       even_list=[]
+#       for n in n1:
+#             if n%2!=0:
+#                   odd_list.append(n)
+#       for n in n1:
+#             if n%2==0:
+#                   even_list.append(n)
+#       return odd_list,even_list
+      
+
+# n1=list(map(int,input("Enter the numbers in comma:").split(',')))
+# print(splitter(n1))
+# Word Length Analysis
+# def word_length(n1):
+#       for w in n1:
+#             length=len(w)
+#             print(f"{w}-{length}")
+# n1=input("Enter the fruit names:").split(",")
+# print(n1)
+# word_length(n1)
+
+# text = "apple banana apple cherry banana apple"
+# list_text=text.split(" ")
+# print(list_text)
+# count ={}
+# count_s=0
+# for w in list_text:
+#       if w in count:
+#             count[w]=count[w]+1
+#       else:
+#             count[w]=1
+# print(count)
+#  Print Alternate Prime Numbers
+#  Write a program to find all prime numbers up to 20, but only print every second (alternate) prime number found.
+# n=int(input("Enter the number:"))
+# result=[]
+# if n<=1:
+#       print("Its not a prime number:")
+# else:
+#       for num in range(2,n):
+#             for i in range(2,int(num**.5)+1):
+#                   if num%i==0:
+#                         break
+#             else:
+#                   result.append(num)
+                  
+# print(result)
+# result_odd=result[::2]
+# print(result_odd)
+# Dictionary of Squares (Mapping Logic)
+# dict={}
+# for i in range(1,11):
+#       dict[i]=i*i
+
+# print(dict)
+# input="I love coding in Python"
+# result=input.replace(" ","_")
+# print(result)
+# Print Reverse Number Pattern
+#  Print a downward number pattern where each row starts with a decreasing value.
+# for i in range(5,0,-1):
+#       for j in range(i,0,-1):
+#             print(j,end=" ")
+#       print("")
+
+# user_input = "Python3"
+# count_digit=0
+# for char in user_input:
+#       if char.isdigit():
+#             count_digit=True
+#             break
+
+# print(f"{char}-{count_digit}")
+# Capitalize First Letter (Title Case)
+# text = "hello world from python"
+# cap=[]
+# result_text=text.split()
+# for re in result_text:
+#       cap.append(re.capitalize())
+
+# result=" ".join(cap)
+# print(result)
+# import time
+# count=5
+
+# while count>0:
+#       time.sleep(1)
+#       print(count)
+#       count=count-1
+      
+# print("blast off")
+# with open("notes.txt","w") as file:
+#       file.write("Hello this is sumi")
+#       file.write("how are you sumi")
+#       file.write("\n")
+
+# with open("notes.txt","r") as file:
+#       content=file.read()
+#       print(content)
+# try:
+#       with open("sample.txt","r") as file:
+#             content=file.read()
+#             words=content.split()
+#             result=len(words)
+#             print(f"The title contains {result}")
+
+# except FileNotFoundError:
+#       print("File not found")
+      
+     
+      
+
+            
+
