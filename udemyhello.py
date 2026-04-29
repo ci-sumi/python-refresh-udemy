@@ -2034,6 +2034,235 @@ nums = [45, 2, 89, 12, 7]
 
 # except FileNotFoundError:
 #       print("File not found")
+
+# def mul(a,b):
+#       return a*b
+      
+# a=int(input("Enter the first number:"))
+# b=int(input("Enter the second number:"))
+# print(mul(a,b))
+# print('Name','Is','James',sep='****')
+# num=255
+# print('%o'%num)
+# print(f"{num:b}")
+# print(f"{num:x}")
+
+# n=input("Enter the name:").split(" ")
+# print(n)
+# count=1
+# for i in n:
+#       print(f"Name{count}:{i}")
+#       count=count+1
+# number=458.541315
+# print(f"{'%.3f'%number}")
+# Numerator=22
+# Denominator=29
+# percentage=(Numerator/Denominator)*100
+# print(f"The result is {percentage:.2f}%")
+# word='Python'
+# Number=3.12
+# print(f"{word:>20} {Number}")
+# title="REPORT SUMMARY"
+# formatted_title=f"{title:-^40}"
+# print(formatted_title)
+# val=input("Enter your number:")
+# print(val.zfill(6))
+
+
+# quantity=3
+# totalMoney=450
+# price=150
+# statement="I have {1}dollars so I can buy{0} football for{2:.2f} dollars"
+# print(statement.format(totalMoney,quantity,price))
+# Print numbers 1 to 10
+# for i in range(1,11):
+#       print(i,end=" ")
+i =1
+# while i<=10:
+#       print(i,end=" ")
+#       i=i+1
+
+# Print even numbers from 1 to 20
+# for i in range(1,21):
+#       if i%2==0:
+#             print(i,end=" ")
+# for i in range(2,21,2):
+#       print(i,end=" ")
+# Sum of numbers from 1 to n
+# def sum_num(n):
+#       total=0
+#       for i in range(n+1):
+#             total=total+i
+#       return total
+# n=int(input("ENter the number:"))
+# print(sum_num(n))
+# def sum_number(n):
+#       total=0
+#       for i in range(1,n+1):
+#             total+=i
+#       return total
+# n=int(input("Enter te number:"))
+# print(sum_number(n))
+# Multiplication table
+# def mul(n):
+#       for i in range(1,11):
+#                  print(f"{n} x {i}={n*i}")
+            
+      
+# n=int(input("Enter the number:"))
+# mul(n)
+# def mul(n):
+#       for i in range(1,n+1):
+#             for j in range(1,11):
+#                   print(f"{i}x{j}={i*j}")
+#             print()
+# n=int(input("Enter the number:"))
+# mul(n)
+# Reverse a number
+# input=1234
+# reverse=0
+# while input>0:
+#       digit=input%10
+#       reverse=reverse*10+digit
+#       input=input//10
+
+# print(reverse)
+# Check palindrome number
+# def palindrom(number):
+#       original=number
+#       reverse=0
+#       while number>0:
+#             digit=number%10
+#             reverse=reverse*10+digit
+#             number=number//10
+#       return reverse==original
+      
+# number=int(input("Enter the number:"))
+# print(palindrom(number))
+# def fact(number):
+#       fact=1
+#       for i in range(1,number+1):
+#             fact=fact*i
+#       print(fact)
+
+# number=int(input("Enter the number:"))
+# fact(number)
+# Display numbers from -10 to -1 using for loop
+# for i in range(-10,0,1):
+#       print(i,end=" ")
+#       # print()
+# Display a message “Done” after successful execution of for loop
+# for i in range(5):
+#       print(i)
+# else:
+#       print("Done")
+# Write a program that accepts a number from the user and calculates the sum of all numbers from 1 up to that number.
+# user_input=int(input("Enter the number:"))
+# total=0
+# for i in range(user_input+1):
+#       total+=i
+# print(total)
+# Print multiplication table of a given number
+# user_input=int(input("Enter the number:"))
+
+# for i in range(1,11):
+#       print(i*user_input)
+# Calculate the cube of all numbers from 1 to a given number
+# user_input=int(input("Enter the number:"))
+# for i in range(user_input+1):
+#       print(f"Current Number is :{i} and the cube is {i**3}")
+# numbers = [12, 75, 150, 180, 145, 525, 50]
+# new_list=[]
+# for i in numbers:
+#       if i>500:
+#             break
+#       elif i>150:
+#             continue
+#       if i%5==0:
+#             new_list.append(i)
+# print(new_list)
+list1 = [10, 20, 10, 30, 10, 40, 50]
+unique_list={}
+
+# for i in list1:
+#       if i in unique_list:
+#             unique_list[i]=unique_list[i]+1
+#       else:
+#             unique_list[i]=1
+# for key,val in unique_list.items():
+#       if val>1:
+#             print(f"{key}:{val}")
+# Print elements from a list present at odd index positions
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# evn_position=[]
+# for index,value in enumerate(my_list):
+#       # print(f"{index}:{value}")
+#       if index%2!=0:
+#             print(value)
+# for i in range(1,len(my_list),2):
+#       print(my_list[i])
+list1 = [10, 20, 30, 40, 50]
+# reverse_list=[]
+# # for i in range(len(list1)-1,-1,-1):
+# #       reverse_list.append(list1[i])
+# # print(reverse_list)
+# reverse_list=list1[::-1]
+# print(reverse_list)
+# for i in reversed(list1):
+#       print(i)
+# size=len(list1)-1
+# result=[]
+# for i in range(size,-1,-1):
+#       result.append(list1[i])
+# print(list1)
+input="Python"
+# revers=input[::-1]
+# print(revers)
+# reversed=" "
+# for char in input:
+#       reversed=char+reversed
+      
+# print(reversed)
+# Count vowels and consonants in a sentence
+# sentence="Loops are Fun!"
+# vowels="aeiou"
+# v_w=0
+# v_c=0
+# for char in sentence.lower():
+#       if char.isalpha():
+#             if char in vowels:
+#                   v_w+=1
+#             else:
+#                   v_c+=1
+
+# print(f"The number of vowels is:{v_w} and characters:{v_c}")
+# Given_input=75869
+# # count=Given_input
+# # print(count)
+# count=0
+
+# while Given_input>0:
+#       Given_input=Given_input//10
+#       count=count+1
+# print(count)
+      
+      
+            
+      
+
+
+
+         
+      
+
+
+            
+            
+            
+               
+      
+      
+
       
      
       
