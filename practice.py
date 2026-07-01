@@ -889,13 +889,13 @@ num0=0
 # d["age"]=21
 # d["name"]="Alex"
 # print(d)
-d={"a":1,"b":2}
+# d={"a":1,"b":2}
 # del d['a']
 # print(d)
 # d.pop("b")
 # print(d)
-print(d.popitem())
-d={"a":1,"b":2}
+# print(d.popitem())
+# d={"a":1,"b":2}
 # for key in d:
 #     print(key)
 # for value in d.values():
@@ -928,7 +928,7 @@ d={"a":1,"b":2}
 # print(dic['a'])
 # print(dic)
 # print(dic['c'])
-dict={'India':'0901','Australia':'0025','Nepal':'0091'}
+# dict={'India':'0901','Australia':'0025','Nepal':'0091'}
 # print(dict.get('India','Not Found'))
 # print(dict.get('Japan','Not Found'))
 # dict.setdefault('Japan',"Not found")
@@ -974,7 +974,7 @@ dict={'India':'0901','Australia':'0025','Nepal':'0091'}
 # data[(1,"John","Doe")]["a"]={"b":"marketting","c":75000}
 # print(data[(1,"John","Doe")]["a"])
 # Python program to find the sum of all items in a dictionary
-input={'a':100,'b':200,'c':300}
+# input={'a':100,'b':200,'c':300}
 # result=sum(input.values())
 # print(result)
 # result=sum(input[key] for key in input)
@@ -986,8 +986,8 @@ input={'a':100,'b':200,'c':300}
 # res=sum(map(lambda key:input[key],input))
 # print(res)
 # Given a sentence,Create a dictionary that stores how many times each word appears
-text = "apple banana apple orange banana apple"
-my_dictionary={}
+# text = "apple banana apple orange banana apple"
+# my_dictionary={}
 # text_result=text.split()
 # print(text_result)
 # for word in text.split():
@@ -1032,27 +1032,428 @@ my_dictionary={}
         
 #     dictionary[values].append(key)
 #     print(dictionary)
-scores = {
-    'Alice': 82,
-    'Bob': 91,
-    'Charlie': 78
-}
+# scores = {
+#     'Alice': 82,
+#     'Bob': 91,
+#     'Charlie': 78
+# }
 # result=max(scores,key=scores.get)
 # print(scores[result])
-items=list(scores.items())
-print(items)
-max_key=items[0][0]
-max_value=items[0][1]
-for key,value in scores.items():
-    if value>max_value:
-        max_value=value
-        max_key=key
-print(max_key)
+# 
+# dict3={
+#     "a":1,
+#     "b":2,
+#     "c":3    
+# }
+# dict4={
+#     "x":1,
+#     "y":3,
+#     "z":6
+# }
+    
+# dict3.update(dict4)
+# print(dict3)
+# dict=dict3 | dict4
+# print(dict)
+# Unpacking
+# dict = {**dict3, **dict4}
+# print(dict)
+# words=['cat','dog','apple','banana','car']
+# result={}
+# for word in words:
+#     length=len(word)
+#     if length not in result:
+#         result[length]=[]
+    
+#     result[length].append(word)
+# print(result)
+# Count charcters (ignore spaces)
+# text = "hello  world"
+# result={}
+# for t in text:
+#     if t!=" ":
+#         if t in result:
+#             result[t]+=1
+#         else:
+#             result[t]=1
+# print(result)
+# Find the duplicates
+# nums=[1,2,3,2,2,4,4,5,1,6]
+# result=[]
+# frequency={}
+# for n in nums:
+#     if n not in result:
+#         frequency[n]=1
+#     else:
+#         frequency[n]+=1
+
+# print(frequency)
+# result=[]
+# dupliacte=[]
+# for n in nums:
+#     if n not in result:
+#         result.append(n)
+#     else:
+#         dupliacte.append(n)
+# print(dupliacte)
+# duplicate_dictionary={}
+# for n in dupliacte:
+#     duplicate_dictionary[n]=duplicate_dictionary.get(n,0)+1
+# print(duplicate_dictionary)
+# nums = [1,2,3,2,4,5,1,6]
+# frequncy={}
+# for n in nums:
+#     if n not in frequncy:
+#         frequncy[n]=frequncy.get(n,0)+1
+# print(frequncy)
+# Student average marks
+# students = {
+#  'Alice':[80,85,90],
+#  'Bob':[70,75,80],
+#  'Charlie':[95,92,98]
+# }
+# result={}
+# # for name,marks in students.items():
+# #     result[name]=sum(marks)/len(marks)
+# # print(result)
+# for name,marks in students.items():
+#     print(name,marks)
+# nums = [2, 7, 11, 15]
+# target=9
+
+# for i in range(len(nums)):#(0,1,2,3)
+#     for j in range(i+1,len(nums)):#(1,2,3)
+#         if nums[i]+nums[j]!=target:#2
+#             print(nums[i],nums[j])
+    
+# for i , val in enumerate(nums):
+#     print(i,val)
+# for i in range(len(nums)):
+#     print(i,nums[i])
+# a=["A","B","C"]
+# r=list(enumerate(a))
+# print(r)
+# 
+# a=["Geeks","for", "Geek"]
+# # for index,value in enumerate(a,start=10):
+# #     print(f"Index{index} value{value}")
+# b=enumerate(a)
+# print(next(b))
+# print(next(b))
+# print(next(b))
+
+# nums = [2, 7, 11, 15]
+# target=9
+# seen={}
+# for i ,n in enumerate(nums):
+#     need=target-n  
+#     if need in seen:
+#         print([seen[need],i])
+#     seen[n]=i
+# data=[{'name':'Alice','city':'Dublin'},
+#       {'name':'Bob','city':'London'},
+#       {'name':'Charlie','city':'Dublin'},
+#       {'name':'David','city':'London'},
+#       {'name':'Eve','city':'Paris'}]
+# result={}
+# for item in data:
+#     city=item['city']
+#     name=item['name']
+#     if city not in result:
+#         result[city]=[]
+#     result[city].append(name)
+# print(result)
+# nameDictionary={
+#     'firstNmae':'sumi',
+#     'secondName':'T.S'
+# }
+# print(nameDictionary)
+# print(type(nameDictionary))
+# countryFlags={
+#     'China':'a',
+#     'India':'b',
+#     'Uganda':'c'
+# }
+# # return Indian flag from the dictionary
+# # for key,values in countryFlags.items():
+# #     if key=='India':
+# #         print(values)
+# baseBallteams={
+#     'Colorodo':"Ford",
+#     'Boston':"Red Sox",
+#     'Minnesota':"Twins",
+#     'Milwaukee':"Brewers",
+#     'Seattle':'mariners'
+# }
+# # print(list(baseBallteams.values()))
+# print(baseBallteams.pop('Minnesota'))
+# print(baseBallteams)
+# capitals={
+#     "Farance":"Paris",
+#     "Japan":"Tokyo",
+#     "Canada":"Ottawa"
+# }
+# print(capitals.get("Japan"))
+# menu={
+#     "espresso":3.00,
+#     "drip cofee":2.00,
+#     "croissant":3.50,
+#     "muffin":2.75
+# }
+# menu["latte"]=4.50
+# print(menu)
+# menu.pop('drip cofee')
+# print(menu)
+# scores={
+#     "Alice":92,
+#     "Bob":78,
+#     "Carol":85,
+#     "Dave":61,
+#     "Eve":95
+# }
+
+# print(list(scores.keys()))
+# for names in scores.keys():
+#     print(list(names))
+# print(scores.keys())
+# for keys,values in scores.items():
+#     if values>80:
+#         print(f"{keys}:{values}")
+# recipe={"flour":500,"sugar":200,"butter":250}
+# pantry={"flour":1000,"sugar":100}
+# shopping_list={}
+# for ingredient,needed_amount in recipe.items():
+#     have_amount=pantry.get(ingredient,0)
+
+#     if have_amount<needed_amount:
+#         shopping_list[ingredient]=needed_amount-have_amount
+#     print(shopping_list)
+# grades={
+#     "Alex":[85,92,90],
+#     "Joradan":[78,84,84],
+#     "Taylor":[95,100,93]
+# }
+# ne_dict={}
+# for names,marks in grades.items():
+#     ne_dict[names]=sum(marks)/len(marks)
+# print(ne_dict)
+# //Set opertations
+# Remove duplicates from a list
+# numbers=[1,2,3,4,4,5]
+# outpu_list=set(numbers)
+# print(outpu_list)
+# final_result=list(outpu_list)
+# # print(final_result)
+# # print(final_result)
+# anothe_dictionary=list(dict.fromkeys(nums))
+# print(anothe_dictionary)
+##Count the unique elements
+# names = ["Tom", "Anna", "Tom", "John", "Anna"]
+# names_count=len(set(names))
+# print(names_count)
+# check if an element exits
+# a =int(input("Enter a number:"))
+# def check_number(numbers,a):
+#     if a in numbers:
+#         print("Its exists")
+#     else:
+#         print("Its doens not exists")
+# numbers ={10, 20, 30, 40, 50}
+# result=check_number(numbers,a)
+##Find common elements
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# c= a & b
+# print(c)
+# a = {1, 2, 3, 4}
+# b = {3, 4, 5, 6}
+# c=b-a
+# print(c)
+##Remove Duplicates
+# nums = [1, 2, 2, 3, 4, 4, 5]
+# unique_numbers=list(set(nums))
+# unique_numbers=list(dict.fromkeys(nums))
+# print(unique_numbers)
+# names=["Tom","Anna","Tom","John","Anna"]
+# outputresult=len(set(names))
+# print(outputresult)
+# Find the duplicates
+nums = [1, 2, 2, 3, 4, 4, 5]
+# result_set={}
+# for n in nums:
+#     if n in result_set:
+#         result_set[n]+=1
+#     else:
+#         result_set[n]=1
+
+# print(result_set)
+# for key,values in result_set.items():
+#     if values>=2:
+#         print(set(key))
+# seen=set()
+# duplicate=set()
+# for n in nums:
+#     if n in seen:
+#         duplicate.add(n)
+#     else:
+#         seen.add(n)
+# print(seen)
+# print(duplicate)
+# Reverse a list(wihout reverse())
+# nums=[1,2,3,4,5]
+# size=len(nums)
+# result=[]
+# # print(size)
+# # for n in nums(size):
+# #     print(n)
+# for n in range(size-1,-1,-1):
+#     result.append(nums[n])
+# print(result)
+nums = [10, 50, 20, 90, 30]
+max=nums[0]
+# for n in nums:
+#     print(n)
+#     if max<n:
+#         max=n
+# print(f"Max_number is :{max}")
+# for i in range(len(nums)):
+#     print(nums[i])
+#     if max<nums[i]:
+#         max=nums[i]
+# print(f"Max_number is :{max}")
+# nums = [10, 50, 20, 90, 30]
+# max=nums[0]
+# second_max=float('-inf')
+# for n in nums:
+#     if n>max:
+#         second_max=max
+#         max=n
+# print(second_max)
+# def welcome():
+#     print("Welcome to Python")
+
+# welcome()
+##Function with parameter
+# def greet(name):
+#     print(f"Hello, {name}!")
+
+# greet("john")
+# def add(a,b):
+#     return a+b
+# result=add(2,3)
+# print(result)
+# def square(num):
+#     return num*num
+
+# result=square(2)
+# print(result)
+# list1=[12,20,30,40,89,56,90,89,78,25]
+# print(list1)
+# nums = [10, 20, 30, 40, 50]
+# print(nums[0])
+# print(nums[2])
+# print(nums[-1])
+# nums = [10, 20, 30, 40, 50, 60, 70]
+# print(nums[0:3])
+# print(nums[-3:])
+# print(nums[2:5])
+# print(nums[0::2])
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(nums[0::2])
+# print(nums[1::2])
+# nums = [5, 10, 15, 20, 25]
+# nums.append(30)
+# print(nums)
+# nums.insert(2,12)
+# nums.remove(15)
+# print(nums)
+# nums = [3, 8, 1, 6, 2]
+# size=len(nums)
+# for i in range(size):
+#     print(i)
+#     for j in range(size-i-1):
+#         print(j)
+#         if nums[j]>nums[j+1]:
+#             nums[j],nums[j+1]=nums[j+1],nums[j]
+# print(nums)
+
+#Find the maximum number in the list
+# max_number=nums[0]
+# for n in nums:
+#     if n >max_number:
+#         max_number=n
+# print(max_number)
+# min_number=nums[3]
+# for n in nums:
+#     if n<min_number:
+#         min_number=n
+# print(min_number)
+# nums = [12, 45, 7, 89, 23, 56]
+# largest_number=nums[0]
+# second_number=nums[0]
+# for n in nums:
+#     if n>largest_number:
+#         second_number=largest_number
+#         largest_number=n
+#     elif n>second_number and n!=largest_number:
+#         second_number=n
+
+# print(second_number)
+# nums = [1, 2, 2, 3, 3, 4, 5, 5]
+# unique=[]
+# for n in nums:
+#     if n not in unique:
+#         unique.append(n)
+# print(unique)
+# nums = [1, 2, 2, 3, 3, 3, 4]
+# Count Frequency of Elements
+# unique={}
+# for n in nums:
+#     if n in unique:
+#         unique[n]+=1
+#     else:
+#         unique[n]=1
+
+# print(unique)
+# nums = [1, 2, 2, 3, 3, 3, 4]
+# frequency={}
+# for n in nums:
+#     frequency[n]=frequency.get(n,0)+1
+# print(frequency)
+# nums = [10, 20, 30, 40, 50]
+# # result=map(lambda x:x+x,nums)
+# # print(result)
+# size=len(nums)
+# total=0
+# for n in nums:
+#     total=total+n
+#     avg=total/size
+# print(avg)
+# nums = [10, 20, 30, 40, 50]
+# size=len(nums)
+# reversed_list=[]
+# for i in range(size-1,-1,-1):
+#     reversed_list.append(nums[i])
+# print(reversed_list)
+nums = [0, 1, 0, 3, 12]
+result=[]
+for n in nums:
+    if n!=0:
+        result.append(n)
+
+for n in nums:
+    if n==0:
+        result.append(n)
+print(result)
     
 
+
+
+
+
+
     
-    
-    
+
 
 
 
