@@ -1,0 +1,6 @@
+['List1','List2','List3']/n Apple/n Orange/n MangoApple
+Orange
+Mango
+Apple
+Orange
+Mango

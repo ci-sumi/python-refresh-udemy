@@ -2201,7 +2201,7 @@ my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 #             print(value)
 # for i in range(1,len(my_list),2):
 #       print(my_list[i])
-list1 = [10, 20, 30, 40, 50]
+# list1 = [10, 20, 30, 40, 50]
 # reverse_list=[]
 # # for i in range(len(list1)-1,-1,-1):
 # #       reverse_list.append(list1[i])
@@ -2245,6 +2245,62 @@ input="Python"
 #       Given_input=Given_input//10
 #       count=count+1
 # print(count)
+# Reverse an integer number
+# Given_input=76542
+# reverse=0
+# while Given_input>0:
+#       digit=Given_input%10
+#       reverse=reverse*10+digit
+#       Given_input=Given_input//10
+# print(reverse)
+# Find largest and smallest digit in a number
+# Given_input=75869
+# small=9
+# large=0
+# while Given_input>0:
+#       digit=Given_input%10
+#       if digit>large:
+#             large=digit
+#       if digit<small:
+#             small=digit
+#       Given_input=Given_input//10
+
+# print(f"{large},{small}")
+# Check if a number is a palindrome
+# number = 123
+# original=number
+# reversed=0
+# while number>0:
+#       digit=number%10
+#       reversed=reversed*10+digit
+#       number=number//10
+# print(reversed)
+# if original==reversed:
+#       print(True)
+# else:
+#       print(False)
+# Find factorial of a number
+
+# number=5
+# fact=1
+# for num in range(1,number+1):
+#       fact=fact*num
+# print(fact)
+# n=6
+# while n!=1:
+#       if n%2==0:
+#          n=n//2
+#       else:
+#             n=(3*n)+1
+#       print(f"{n}",end=" ")
+# Print right-angled triangle Number Pattern using a Loop
+n=int(input("enter the number:"))
+for i in range(n+1):
+      for j in range(i+1):
+            print(f"{i}{i+1}",end=" ")
+       
+
+      
       
       
             
