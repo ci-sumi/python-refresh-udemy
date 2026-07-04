@@ -1445,17 +1445,64 @@ max=nums[0]
 #     if n==0:
 #         result.append(n)
 # print(result)
-nums = [0, 1, 0, 3, 12]
-result=[]
-zero_ocunt=0
-for n in nums:
-    if n!=0:
-        result.append(n)
-    else:
-        zero_ocunt+=1
-result.extend([0]*zero_ocunt)
-print(result)
+# nums = [0, 1, 0, 3, 12]
+# result=[]
+# zero_ocunt=0
+# for n in nums:
+#     if n!=0:
+#         result.append(n)
+#     else:
+#         zero_ocunt+=1
+# result.extend([0]*zero_ocunt)
+# print(result)
+# nums = [30,31,33,34,35]
+# max=nums[4]
+# # size=len(nums)+1
+# for i in range(min(nums),max+1):
+#     if i not in nums:
+#         print(i)
+#         break
+# Find the First Duplicate Element
+# nums = [4, 2, 7, 5, 2, 9, 7]
+# result=[]
+# du=[]
+# for n in nums:
+#     if n in result:
+#         print(n)
+#         break
+#     else:
+#         result.append(n)
+# nums = [4, 2, 7, 2, 4, 9, 7, 8]
 
+# for n in nums:
+#     if nums.count(n)==1:
+#         print(n)
+#         break
+
+# seen=[]
+# notseen=[]
+# for n in nums:
+#     if nums.count(n)==1:
+#         seen.append(n)
+#     else:
+#         notseen.append(n)
+# print(seen)
+    
+    
+numbers= [4, 2, 7, 2, 4, 9, 7, 8]
+act_size=len(numbers)
+size=len(numbers)-1
+# reverse_liist=[]
+# for n in range(size,-1,-1):
+#     reverse_liist.append(numbers[n])
+# print(reverse_liist)
+for i in range(act_size):
+    for j in range(i,size):
+        if numbers[i]>numbers[j+1]:
+            numbers[i],numbers[j+1]=numbers[j+1],numbers[i]
+print(numbers)
+        
+    
 
   
 
