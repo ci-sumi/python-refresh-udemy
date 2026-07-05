@@ -1489,18 +1489,37 @@ max=nums[0]
 # print(seen)
     
     
-numbers= [4, 2, 7, 2, 4, 9, 7, 8]
-act_size=len(numbers)
-size=len(numbers)-1
+# numbers= [4, 2, 7, 2, 4, 9, 7, 8]
+# act_size=len(numbers)
+# size=len(numbers)-1
 # reverse_liist=[]
 # for n in range(size,-1,-1):
 #     reverse_liist.append(numbers[n])
 # print(reverse_liist)
-for i in range(act_size):
-    for j in range(i,size):
-        if numbers[i]>numbers[j+1]:
-            numbers[i],numbers[j+1]=numbers[j+1],numbers[i]
-print(numbers)
+# for i in range(act_size):
+#     for j in range(i,size):
+#         if numbers[i]>numbers[j+1]:
+#             numbers[i],numbers[j+1]=numbers[j+1],numbers[i]
+# print(numbers)
+# nums = [20, 10, 30, 40, 50]
+# size=len(nums)-1
+# is_sorted=True
+# for i in range(size):
+#     if nums[i]>nums[i+1]:
+#         print(nums[i])
+#         is_sorted=False
+#         break
+# if is_sorted:
+#     print("its sorted") 
+# else:
+#     print("its not sorted")
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [3, 4, 5, 6, 7]
+# result=[]
+# for n in list1:
+#     if n in list2:
+#         result.append(n)
+# print(result)
         
     
 
