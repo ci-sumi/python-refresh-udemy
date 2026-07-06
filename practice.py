@@ -1520,7 +1520,51 @@ max=nums[0]
 #     if n in list2:
 #         result.append(n)
 # print(result)
-        
+# Find the Union of Two Lists
+# list1 = [1, 2, 3, 4]
+# list2 = [3, 4, 5, 6]
+# result=[]
+# for n in list1:
+#     result.append(n)
+# for n in list2:
+#     if n not in result:
+#         result.append(n)
+# print(result)
+# Remove Duplicates from a List
+# nums = [4, 2, 7, 2, 4, 9, 7, 8]
+# # Remove duplicates but keep the original order.
+# result=[]
+# for n in nums:
+#     if n not in result:
+#         result.append(n)
+# print(result)
+# Find the Second Largest Number in a List
+# nums = [12, 45, 7, 89, 23, 56]
+# large=nums[0]
+# second_large=nums[0]
+# for n in nums:
+#     print(n)
+#     if n>large:
+#         second_large=large
+#         large=n
+#     elif n>second_large and n!=large:
+#         second_large=n
+
+# print(second_large)
+# print(large)
+# Access List in Python
+#Indexing
+#Slicing
+#Loop
+a = [10, 20, 30, 40, 50]
+# print(a[3])
+# print(a[-1])
+# for item in a:
+#     print(item,end=" ")
+print(a[1:4])
+print(a[::-1])
+b=[item for item in a if item>20]
+print(b)
     
 
   
