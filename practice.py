@@ -1561,12 +1561,68 @@ a = [10, 20, 30, 40, 50]
 # print(a[-1])
 # for item in a:
 #     print(item,end=" ")
-print(a[1:4])
-print(a[::-1])
-b=[item for item in a if item>20]
-print(b)
-    
-
+# print(a[1:4])
+# print(a[::-1])
+# b=[item for item in a if item>20]
+# print(b)
+# a[1]=25
+# print(a)
+# a[1:3]=[21,35]
+# print(a)
+# List comprehension
+# a=[x*2 if x%2==0 else x for x in a]
+# print(a)
+# for i , x in enumerate(a):
+#     if x%2==0:
+#         a[i]+=5
+# print(a)
+# b=list(map(lambda x:x+1,a))
+# print(b)
+# List compression is creating a new list by applying expression to each item in a existing iterable list
+# a=[10,21,30,40]
+# b=[val*2 for val in a]
+# print(b)
+# a = [1, 2, 3, 4, 5]
+# b=[val for val in a if val%2==0]
+# print(b)
+# nums = [1, 2, 3, 4, 5]
+# square_numbers=[x**2 for x in nums]
+# print(square_numbers)
+# nums = list(range(1, 21))
+# even_numbers=[n for n in nums if n%2==0]
+# print(even_numbers)
+# List Comprehension with Conditional Expression
+# nums = list(range(1, 21))
+# # Create a list containing only the even numbers.
+# even_list=[item for item in nums if item%2==0]
+# print(even_list)
+# words = ["apple", "banana", "cherry"]
+# upper_letters=[item.upper() for item in words]
+# print(upper_letters)
+# words = ["cat", "elephant", "dog", "giraffe"]
+# # Create a new list using a list comprehension that contains the length of each word.
+# length_word=[len(item)for item in words]
+# print(length_word)
+# words = ["python", "java", "c++", "ruby"]
+# first_word=[item[0] for item in words]
+# print(first_word)
+# nums = range(1, 21)
+# Create a list containing the squares of only the odd numbers.
+# new_list=[item**2 for item in nums if item%2!=0]
+# print(new_list)
+# words = ["hi", "hello", "world", "AI", "python"]
+# Create a list containing only words with more than 3 letters.
+# three_letters=[item for item in words if len(item)>3]
+# print(three_letters)
+# 1. basic structure
+# new_list=[expression for item in iterable]
+# nums=[1,2,3,4]
+# squares=[item**2 for item in nums]
+# print(squares)
+# Filtering with if
+# nums = [1, 2, 3, 4]
+# even_numbers=["Even" if n%2==0 else "Odd" for n in nums]
+# print (even_numbers)
   
 
 
