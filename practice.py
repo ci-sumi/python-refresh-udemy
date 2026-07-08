@@ -1635,15 +1635,15 @@ a = [10, 20, 30, 40, 50]
 # x=2
 # result=smaller(l,x)
 # print(result)
-def evenodd(l):
-    even=[x for x in l if x%2==0]
-    odd=[x for x in l if x%2!=0]
-    return even,odd
+# def evenodd(l):
+#     even=[x for x in l if x%2==0]
+#     odd=[x for x in l if x%2!=0]
+#     return even,odd
 
-l=[1,2,3,4,4,5]
-even,odd=evenodd(l)
-print(even)
-print(odd)
+# l=[1,2,3,4,4,5]
+# even,odd=evenodd(l)
+# print(even)
+# print(odd)
 
 
 
