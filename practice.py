@@ -1623,7 +1623,18 @@ a = [10, 20, 30, 40, 50]
 # nums = [1, 2, 3, 4]
 # even_numbers=["Even" if n%2==0 else "Odd" for n in nums]
 # print (even_numbers)
-  
+# l1=[x for x in range(11) if x%2==0]
+# print(l1)
+# l1=[x for x in range(11) if x%2!=0]
+# print(l1)
+# def smaller(l,x):
+#     return [y for y in l if y<x]
+    
+
+# l=[1,2,3,4]
+# x=2
+# result=smaller(l,x)
+# print(result)
 
 
 
