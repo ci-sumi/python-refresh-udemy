@@ -1644,8 +1644,37 @@ a = [10, 20, 30, 40, 50]
 # even,odd=evenodd(l)
 # print(even)
 # print(odd)
-
-
+# s="geekforgeeks"
+# l1=[x for x in s if x in 'aeiou']
+# print(l1)
+# l2=["geeks","ide","courner","gfg"]
+# upper_l2=[x.upper() for x in l2 if x.startswith("g")]
+# print(upper_l2)
+# l4=[x**2 for x in range(10)]
+# print(l4)
+# set comprehension
+# l1=[10,20,3,4,10,20,7,3]
+# s1={x for x in l1 if x%2==0}
+# s2={x for x in l1 if x%2!=0}
+# print(s1)
+# print(s2)
+# Dictionary comprehension
+# l1=[1,3,4,2,5]
+# d1={x:x**2 for x in l1}
+# print(d1)
+# d2={x:f"ID{x}" for x in range(5)}
+# print(d2)
+# l2=[101,102,103]
+# l3=["gfg","ide","courier"]
+# d3={l2[i]:l3[i] for i in range (len(l2))}
+# print(d3)
+# l1=[101,102,203]
+# l2=["neena","Meena","geena"]
+# d3=dict(zip(l1,l2))
+# print(d3)
+# d1={101:"gfg",103:"pharama",102:"ide"}
+# d2={v:k for (k,v)in d1.items()}
+# print(d2)
 
 
 
