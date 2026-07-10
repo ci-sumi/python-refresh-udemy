@@ -1675,6 +1675,13 @@ a = [10, 20, 30, 40, 50]
 # d1={101:"gfg",103:"pharama",102:"ide"}
 # d2={v:k for (k,v)in d1.items()}
 # print(d2)
+# Using a Loop with enumerate
+# a=[10,5,20,25]
+# #Add 5 to odd numbers
+# for i ,x in enumerate(a):
+#     if x%2!=0:
+#         a[i]+=5
+# print(a)
 
 
 
