@@ -1697,9 +1697,12 @@ a = [10, 20, 30, 40, 50]
 # res=list(map(lambda x,y:x+y,a,b))
 # print(res)
 # Using map() with Tuples
-nums=(1,2,3)
-res=tuple(map(lambda x:x+1,nums))
-print(res)
+# nums=(1,2,3)
+# res=tuple(map(lambda x:x+1,nums))
+# print(res)
+# fruits=['apple','banana','cherry']
+# result=list(map(str.upper,fruits))
+# print(result)
 
 
 
