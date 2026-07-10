@@ -1682,7 +1682,20 @@ a = [10, 20, 30, 40, 50]
 #     if x%2!=0:
 #         a[i]+=5
 # print(a)
+# def double(val):
+#     return val*2
 
+# val=[3,4,5]
+# print(double(val))
+
+# a=[1,2,3,45]
+# b=list(map(lambda x:x**2,a))
+# print(b)
+# map() with multiple iterables
+# a=[1,2,3]
+# b=[4,5,6]
+# res=list(map(lambda x,y:x+y,a,b))
+# print(res)
 
 
     
