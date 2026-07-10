@@ -1696,6 +1696,11 @@ a = [10, 20, 30, 40, 50]
 # b=[4,5,6]
 # res=list(map(lambda x,y:x+y,a,b))
 # print(res)
+# Using map() with Tuples
+nums=(1,2,3)
+res=tuple(map(lambda x:x+1,nums))
+print(res)
+
 
 
     
