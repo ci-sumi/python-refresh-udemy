@@ -1703,7 +1703,32 @@ a = [10, 20, 30, 40, 50]
 # fruits=['apple','banana','cherry']
 # result=list(map(str.upper,fruits))
 # print(result)
-
+# Replace Values in a List in Python
+# a = [10, 20, 30, 40, 50]
+# a[2]=35
+# print(a)
+# a = [10, 20, 30, 40, 50]
+# for i in range(len(a)):
+#     if a[i]==30:
+#         a[i]=25
+# print(a)
+#Using while loop
+# a = [10, 20, 30, 40, 50]
+# i =0
+# while i<len(a):
+#     if a[2]==30:
+#         a[2]=25
+#     i+=1
+# print(a)
+# a = ["10", "20", "30", "40", "50"]
+# result=list(map(lambda x:x.replace("30","25"),a))
+# print(result)
+# a = ["10", "20", "30", "40", "50"]
+# result=a[:2]+["78"]+a[3:]
+# # print(a[:2])
+# # print(a[3:])
+# # print(a)
+# print(result)
 
 
     
