@@ -1729,6 +1729,22 @@ a = [10, 20, 30, 40, 50]
 # # print(a[3:])
 # # print(a)
 # print(result)
+# Python append list
+# a=[2,5,6,7]
+# a.append(30)
+# print(a)
+# a=[1,"python"]
+# a.append(3.14)
+# a.append("True")
+# print(a)
+# a=[1,2,3,4]
+# a.append([4,5])
+# print(a)
+# a=[]
+# for i in range(5):
+#     a.append(i)
+# print(a)
+
 
 
     
