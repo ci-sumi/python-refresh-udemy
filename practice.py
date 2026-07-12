@@ -1744,6 +1744,17 @@ a = [10, 20, 30, 40, 50]
 # for i in range(5):
 #     a.append(i)
 # print(a)
+##insert() method
+# a=["banana","cherry","grape"]
+# a.insert(1,"mango")
+# print(a)
+# a=[1,2,3,45]
+# a.insert(2,[2,34])
+# print(a)
+# a=[10,20,40,50]
+# i=a.index(40)
+# a.insert(i,89)
+# print(a)
 
 
 
