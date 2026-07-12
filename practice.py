@@ -1776,6 +1776,20 @@ a = [10, 20, 30, 40, 50]
 # n=[4,5,6]
 # a.extend(chain(n))
 # print(a)
+# Remove items from the list
+#Remove,pop,del and clear
+# a=[10,20,30,40,50]
+# a.remove(30)
+# print(a)
+# a = [10, 20, 30, 40, 50]
+# val=a.pop()
+# print(a)
+# print(val)
+# print(a)
+# del a[2:3]
+# print(a)
+# a.clear()
+# print(a)
 
 
     
