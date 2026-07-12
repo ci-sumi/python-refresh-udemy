@@ -1755,7 +1755,27 @@ a = [10, 20, 30, 40, 50]
 # i=a.index(40)
 # a.insert(i,89)
 # print(a)
-
+#Using extend method
+# a=[1,2,3,4]
+# n=[4,5,6]
+# a.extend(n)
+# print(a)
+# a=[5,12,3,4]
+# b=[4,5,6]
+# a+=b
+# print(a)
+# a=[1,2,3]
+# b=[4,5,6]
+# a[len(a):]=b
+# print(a)
+# a=[1,2,3,4]
+# a[2:4]=[4,5]
+# print(a)
+# from itertools import chain 
+# a=[1,2,3,4]
+# n=[4,5,6]
+# a.extend(chain(n))
+# print(a)
 
 
     
