@@ -1803,9 +1803,19 @@ input=[10,20,30,40,50]
 #     a.pop()
 # print(a)
 # //Reassigning to []
-a=[1,2,3,4,5]
-a=[]
-print(a)
+# a=[1,2,3,4,5]
+# a=[]
+# print(a)
+# List Traversal
+# def listtraversal(arr):
+#     for i in arr:
+#         print(i,end=" ")
+#     return arr
+
+# arr=[54,43,2,1,5]
+# listtraversal(arr)
+
+
 
 
 
