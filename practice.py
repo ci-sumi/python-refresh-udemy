@@ -1815,6 +1815,13 @@ input=[10,20,30,40,50]
 # arr=[54,43,2,1,5]
 # listtraversal(arr)
 
+def lengthoflist(arr):
+    return len(arr)
+
+
+arr=[1,2,34,9]
+print(lengthoflist(arr))
+
 
 
 
