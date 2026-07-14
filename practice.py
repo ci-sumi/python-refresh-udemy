@@ -1790,6 +1790,23 @@ a = [10, 20, 30, 40, 50]
 # print(a)
 # a.clear()
 # print(a)
+# Different ways to Clear a List in Python
+#Clear method
+input=[10,20,30,40,50]
+# a.clear()
+# print(a)
+# del input[:]
+# print(input)
+#with pop
+# a=[1,2,34,6]
+# while a:
+#     a.pop()
+# print(a)
+# //Reassigning to []
+a=[1,2,3,4,5]
+a=[]
+print(a)
+
 
 
     
