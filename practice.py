@@ -1309,8 +1309,8 @@ nums = [1, 2, 2, 3, 4, 4, 5]
 # for n in range(size-1,-1,-1):
 #     result.append(nums[n])
 # print(result)
-nums = [10, 50, 20, 90, 30]
-max=nums[0]
+# nums = [10, 50, 20, 90, 30]
+# max=nums[0]
 # for n in nums:
 #     print(n)
 #     if max<n:
@@ -1859,6 +1859,16 @@ input=[10,20,30,40,50]
 #     return result
 
 # print(append(2,34,5))
+# Find the Maximum of two numbers in Python
+a=7
+b=3
+# print(max(a,b))
+# ternary operator
+# print(a if a>b else b)
+# if a>b:
+#     print(a)
+# else:
+#     print(b)
 
 
 
