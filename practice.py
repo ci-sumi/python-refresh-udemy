@@ -1877,6 +1877,16 @@ b=3
 # for i in a:
 #     c+=1
 # print(c)
+# Minimum of two numbers in Python
+a=15
+b=9
+# print(min(a,b))
+# print(a if a<b else b)
+# if a<b:
+#     print(a)
+# else:
+#     print(b)
+
 
 
 
