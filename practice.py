@@ -1869,6 +1869,14 @@ b=3
 #     print(a)
 # else:
 #     print(b)
+# How To Find the Length of a List in Python
+# a = [1, 2, 3, 4, 5]
+# print(len(a))
+# a=[1,2,3,45]
+# c=0
+# for i in a:
+#     c+=1
+# print(c)
 
 
 
