@@ -1815,12 +1815,24 @@ input=[10,20,30,40,50]
 # arr=[54,43,2,1,5]
 # listtraversal(arr)
 
-def lengthoflist(arr):
-    return len(arr)
+# def lengthoflist(arr):
+#     return len(arr)
 
 
-arr=[1,2,34,9]
-print(lengthoflist(arr))
+# arr=[1,2,34,9]
+# print(lengthoflist(arr))
+# Sum The List
+# def sum_of_list(arr):
+#     total=0
+#     for i in arr:
+#         total=i+total
+#     return total
+
+# arr=[54, 43, 2, 1, 5]
+# result=sum_of_list(arr)
+# print(result)
+
+
 
 
 
