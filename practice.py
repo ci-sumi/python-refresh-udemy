@@ -1878,14 +1878,38 @@ b=3
 #     c+=1
 # print(c)
 # Minimum of two numbers in Python
-a=15
-b=9
+# a=15
+# b=9
 # print(min(a,b))
 # print(a if a<b else b)
 # if a<b:
 #     print(a)
 # else:
 #     print(b)
+# Python program to interchange first and last elements in a list
+# Using Direct Assignment
+# list=[1,2,3,4,5]
+# list[0],list[-1]=list[-1],list[0]
+# print(list)
+# Using Tuple Variable
+# lst=[12,35,9,56,24]
+# pair=lst[-1],lst[0]
+# lst[0],lst[-1]=pair
+# print(lst)
+#Extended iterable unpacking
+# lst=[12,35,9,56,24]
+# a,*mid,c=lst
+# lst=[c,*mid,a]
+# print(lst)
+# lst=[12,35,9,56,24]
+# lst=lst[-1:] + lst[1:-1] + lst[1:]
+# print(lst)
+# Using a Temporary Variable
+# lst=[12,35,9,56,24]
+# tem=lst[0]
+# lst[0]=lst[-1]
+# lst[-1]=tem
+# print(lst)
 
 
 
