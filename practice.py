@@ -1843,7 +1843,23 @@ input=[10,20,30,40,50]
 
 # arr = [54, 43, 2, 1, 5]
 # result=decrement(arr)
-print(result)
+# print(result)
+# def appendToList():
+#     result_list=[]
+#     result_list.append(a)
+#     result_list.append(b)
+#     result_list.append(c)
+#     return result_list
+# a,b,c=4,5,0
+# print(appendToList(a,b,c))
+# def append(*args):
+#     result=[]
+#     for item in args:
+#         result.append(item)
+#     return result
+
+# print(append(2,34,5))
+
 
 
 
