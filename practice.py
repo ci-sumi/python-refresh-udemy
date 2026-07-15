@@ -1825,12 +1825,26 @@ input=[10,20,30,40,50]
 # def sum_of_list(arr):
 #     total=0
 #     for i in arr:
+#         print(i)
 #         total=i+total
+        
 #     return total
 
 # arr=[54, 43, 2, 1, 5]
 # result=sum_of_list(arr)
 # print(result)
+# Decrement List Values
+# def decrement(arr):
+#     result_list=[]
+#     for i in arr:
+#         i =i-1
+#         result_list.append(i)
+#     return result_list
+
+# arr = [54, 43, 2, 1, 5]
+# result=decrement(arr)
+print(result)
+
 
 
 
