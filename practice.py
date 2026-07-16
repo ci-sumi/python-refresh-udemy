@@ -1928,6 +1928,15 @@ b=3
 # a[2]=a[4]
 # a[4]=a[2]
 # print(a)
+def swap(l,pos1,pos2):
+    temp=l[pos1]
+    l[pos1]=l[pos2]
+    l[pos2]=temp
+    return l
+    
+l=[10,20,30,40]
+
+print(swap(l,1,3))
 
 
 
