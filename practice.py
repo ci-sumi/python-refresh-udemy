@@ -1959,18 +1959,24 @@ b=3
 #     print("Yes")
 # else:
 #     print("No")
-a=[10,20,30,40,50]
-key=31
-flag=False
-for val in a:
-    if val==key:
-        flag=True
-        break
+# a=[10,20,30,40,50]
+# key=31
+# flag=False
+# for val in a:
+#     if val==key:
+#         flag=True
+#         break
+# if flag:
+#     print("The elemnt exists in the list")
+# else:
+#     print("Doenot exist")
+a=[10, 20, 30, 40, 50]
+flag=any(x==30 for x in a)
 if flag:
-    print("The elemnt exists in the list")
+    print("Element exists in the list")
 else:
-    print("Doenot exist")
-    
+    print("Element exists in the list")
+
 
 
 
