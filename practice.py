@@ -1970,12 +1970,12 @@ b=3
 #     print("The elemnt exists in the list")
 # else:
 #     print("Doenot exist")
-a=[10, 20, 30, 40, 50]
-flag=any(x==30 for x in a)
-if flag:
-    print("Element exists in the list")
-else:
-    print("Element exists in the list")
+# a=[10, 20, 30, 40, 50]
+# flag=any(x==30 for x in a)
+# if flag:
+#     print("Element exists in the list")
+# else:
+#     print("Element exists in the list")
 
 
 
