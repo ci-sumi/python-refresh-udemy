@@ -1954,11 +1954,23 @@ b=3
 # l=[10,20,30,40]
 # print(swap(l,2,3))
 # Check if elements exists in a list
-Input_list=[1,2,3,4,5]
-if 30 in Input_list:
-    print("Yes")
+# Input_list=[1,2,3,4,5]
+# if 30 in Input_list:
+#     print("Yes")
+# else:
+#     print("No")
+a=[10,20,30,40,50]
+key=31
+flag=False
+for val in a:
+    if val==key:
+        flag=True
+        break
+if flag:
+    print("The elemnt exists in the list")
 else:
-    print("No")
+    print("Doenot exist")
+    
 
 
 
