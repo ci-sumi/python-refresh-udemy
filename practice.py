@@ -1946,15 +1946,19 @@ b=3
 
 # l=[10,20,30,40,50]
 # print(swap(l,1,3))
-def swap(l,pos1,pos2):
-    temp=l[pos1],l[pos2]
-    print(temp)
-    l[pos2],l[pos1]=temp
-    return l
-    
-
-l=[10,20,30,40]
-print(swap(l,2,3))
+# def swap(l,pos1,pos2):
+#     temp=l[pos1],l[pos2]
+#     print(temp)
+#     l[pos2],l[pos1]=temp
+#     return l
+# l=[10,20,30,40]
+# print(swap(l,2,3))
+# Check if elements exists in a list
+Input_list=[1,2,3,4,5]
+if 30 in Input_list:
+    print("Yes")
+else:
+    print("No")
 
 
 
