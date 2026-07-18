@@ -1976,6 +1976,12 @@ b=3
 #     print("Element exists in the list")
 # else:
 #     print("Element exists in the list")
+##Count 
+a=[10, 20, 30, 40, 50]
+if a.count(40)>0:
+    print("Element exists in the list")
+else:
+    print("Element doesnot exist")
 
 
 
