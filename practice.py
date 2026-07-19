@@ -1992,12 +1992,18 @@ b=3
 # in_range =all(start<num<end for num in a)
 # print(in_range)
 # How to Check if an Index Exists in Python Lists
+# a=[10,20,30,40]
+# index =3
+# if index<len(a):
+#     print(a[index])
+# else:
+#     print("Index does not exists")
+# Using try and except
 a=[10,20,30,40]
-index =3
-if index<len(a):
-    print(a[index])
-else:
-    print("Index does not exists")
+try:
+    print[a[5]]
+except IndexError:
+    print("Index does not exist")
 
 
 
