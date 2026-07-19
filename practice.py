@@ -1982,9 +1982,14 @@ b=3
 #     print("Element exists in the list")
 # else:
 #     print("Element doesnot exist")
-a=[3,8,12,28,25]
-start,end =10,20
-in_range =any(start<=num<=end for num in a)
+# a=[3,8,12,28,25]
+# start,end =10,20
+# in_range =any(start<=num<=end for num in a)
+# print(in_range)
+a=[5,10,15,20]
+start =5
+end =20
+in_range =all(start<num<end for num in a)
 print(in_range)
 
 
