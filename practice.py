@@ -2020,13 +2020,19 @@ b=3
 # a=[1,23,45,9]
 # print(list(reversed(a)))
 # Using Loop
-a=[1,23,4,56,7]
-size =len(a)-1
-result_list=[]
-for value in range(size,-1,-1):
-    result_list.append(a[value])
-print(result_list)
-    
+# a=[1,23,4,56,7]
+# size =len(a)-1
+# result_list=[]
+# for value in range(size,-1,-1):
+#     result_list.append(a[value])
+# print(result_list)
+a=[1,2,3,4,5]
+i,j=0,len(a)-1
+while i<j:
+    a[i],a[j]=a[j],a[i]
+    i+=1
+    j-=1
+print(a)
 
 
 
