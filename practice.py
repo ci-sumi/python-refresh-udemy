@@ -1977,11 +1977,15 @@ b=3
 # else:
 #     print("Element exists in the list")
 ##Count 
-a=[10, 20, 30, 40, 50]
-if a.count(40)>0:
-    print("Element exists in the list")
-else:
-    print("Element doesnot exist")
+# a=[10, 20, 30, 40, 50]
+# if a.count(40)>0:
+#     print("Element exists in the list")
+# else:
+#     print("Element doesnot exist")
+a=[3,8,12,28,25]
+start,end =10,20
+in_range =any(start<=num<=end for num in a)
+print(in_range)
 
 
 
