@@ -2017,8 +2017,16 @@ b=3
 # a=[1,23,4,56,7]
 # rev=a[::-1]
 # print(rev)
-a=[1,23,45,9]
-print(list(reversed(a)))
+# a=[1,23,45,9]
+# print(list(reversed(a)))
+# Using Loop
+a=[1,23,4,56,7]
+size =len(a)-1
+result_list=[]
+for value in range(size,-1,-1):
+    result_list.append(a[value])
+print(result_list)
+    
 
 
 
