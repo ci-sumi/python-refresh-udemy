@@ -1999,11 +1999,17 @@ b=3
 # else:
 #     print("Index does not exists")
 # Using try and except
-a=[10,20,30,40]
-try:
-    print[a[5]]
-except IndexError:
-    print("Index does not exist")
+# a=[10,20,30,40]
+# try:
+#     print[a[5]]
+# except IndexError:
+#     print("Index does not exist")
+# lst=[10,20,30,40]
+# index=2
+# if index in range(len(lst)):
+#     print("Index does exist")
+# else:
+#     print("IIndex does not exist")
 
 
 
