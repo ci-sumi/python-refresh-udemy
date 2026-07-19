@@ -2014,6 +2014,12 @@ b=3
 # a=[1,2,3,4,5]
 # a.reverse()
 # print(a)
+# a=[1,23,4,56,7]
+# rev=a[::-1]
+# print(rev)
+a=[1,23,45,9]
+print(list(reversed(a)))
+
 
 
 
