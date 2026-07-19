@@ -2010,7 +2010,10 @@ b=3
 #     print("Index does exist")
 # else:
 #     print("IIndex does not exist")
-
+# Reversing a List in Python
+# a=[1,2,3,4,5]
+# a.reverse()
+# print(a)
 
 
 
