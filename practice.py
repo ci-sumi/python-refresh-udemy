@@ -2045,8 +2045,12 @@ list_q=[2,3,4,5,6,7]
 # print(list5)
 # list6=list[::-1]
 # print(list6)
-list7=reversed(list_q)
-print(list(list7))
+# list7=reversed(list_q)
+# print(list(list7))
+lst=[]
+for i in list_q:
+    lst.insert(0,i)
+print(lst)
 
 
 
