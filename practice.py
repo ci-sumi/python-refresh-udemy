@@ -2066,15 +2066,22 @@ b=3
 # list=[2,3,4,56,78]
 # print(reverse_list(list))
     
-list=[2,3,4,56,78]
-size=len(list)
-def rverse_list(list,size):
-    i=0
-    while(i<size):
-        list[i],list[size-i-1]=list[size-i-1],list[i]
-        return list
-print(rverse_list(list,size))
-
+# list=[2,3,4,56,78]
+# size=len(list)
+# def rverse_list(list,size):
+#     i=0
+#     while(i<size):
+#         list[i],list[size-i-1]=list[size-i-1],list[i]
+#         return list
+# print(rverse_list(list,size))
+# numbers=[1,2,3,4,5]
+# reversed_list=[x for x in numbers[::-1]]
+# print(reversed_list)
+# reversed_list=[numbers[i] for i  in range (len(numbers)-1,-1,-1)]
+# print(reversed_list)
+list=[2,3,4,5]
+lst=[list[len(list)-i]for i in range(1,len(list)+1)]
+print(lst)
 
         
 
