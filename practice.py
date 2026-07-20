@@ -2026,13 +2026,21 @@ b=3
 # for value in range(size,-1,-1):
 #     result_list.append(a[value])
 # print(result_list)
-a=[1,2,3,4,5]
-i,j=0,len(a)-1
-while i<j:
-    a[i],a[j]=a[j],a[i]
-    i+=1
-    j-=1
-print(a)
+# a=[1,2,3,4,5]
+# i,j=0,len(a)-1
+# while i<j:
+#     a[i],a[j]=a[j],a[i]
+#     i+=1
+#     j-=1
+# print(a)
+##Reversing a list
+list=[2,3,4,5,6,7]
+# list2=list[0:4]
+# print(list2)
+# list3=list[:]
+# print(list3)
+list4=list[-1:]
+print(list4)
 
 
 
