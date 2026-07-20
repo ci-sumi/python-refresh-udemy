@@ -2034,13 +2034,20 @@ b=3
 #     j-=1
 # print(a)
 ##Reversing a list
-list=[2,3,4,5,6,7]
+list_q=[2,3,4,5,6,7]
 # list2=list[0:4]
 # print(list2)
 # list3=list[:]
 # print(list3)
-list4=list[-1:]
-print(list4)
+# list4=list[-1:]
+# print(list4)
+# list5=list[0:5:1]
+# print(list5)
+# list6=list[::-1]
+# print(list6)
+list7=reversed(list_q)
+print(list(list7))
+
 
 
 
