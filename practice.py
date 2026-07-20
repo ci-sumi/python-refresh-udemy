@@ -2052,19 +2052,30 @@ b=3
 #     lst.insert(0,i)
 # print(lst)
 
-def reverse_list(list):
-    left=0
-    right=len(list)-1
-    while(left<right):
-        temp=list[left]
-        list[left]=list[right]
-        list[right]=temp
-        left+=1
-        right-=1
-        return list
+# def reverse_list(list):
+#     left=0
+#     right=len(list)-1
+#     while(left<right):
+#         temp=list[left]
+#         list[left]=list[right]
+#         list[right]=temp
+#         left+=1
+#         right-=1
+#         return list
+    
+# list=[2,3,4,56,78]
+# print(reverse_list(list))
     
 list=[2,3,4,56,78]
-print(reverse_list(list))
+size=len(list)
+def rverse_list(list,size):
+    i=0
+    while(i<size):
+        list[i],list[size-i-1]=list[size-i-1],list[i]
+        return list
+print(rverse_list(list,size))
+
+
         
 
 
