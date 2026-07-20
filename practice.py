@@ -2034,7 +2034,7 @@ b=3
 #     j-=1
 # print(a)
 ##Reversing a list
-list_q=[2,3,4,5,6,7]
+# list_q=[2,3,4,5,6,7]
 # list2=list[0:4]
 # print(list2)
 # list3=list[:]
@@ -2047,10 +2047,25 @@ list_q=[2,3,4,5,6,7]
 # print(list6)
 # list7=reversed(list_q)
 # print(list(list7))
-lst=[]
-for i in list_q:
-    lst.insert(0,i)
-print(lst)
+# lst=[]
+# for i in list_q:
+#     lst.insert(0,i)
+# print(lst)
+
+def reverse_list(list):
+    left=0
+    right=len(list)-1
+    while(left<right):
+        temp=list[left]
+        list[left]=list[right]
+        list[right]=temp
+        left+=1
+        right-=1
+        return list
+    
+list=[2,3,4,56,78]
+print(reverse_list(list))
+        
 
 
 
