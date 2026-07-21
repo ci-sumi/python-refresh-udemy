@@ -2105,9 +2105,20 @@ b=3
 # num2.extend(num1)
 # print(num2)
 # Count Occurrences of an Element in a List in Python
-a = [1, 3, 2, 6, 3, 2, 8, 2, 9, 2, 7, 3]
-print(a.count(2))
+# print(a.count(2))
 
+def count_element(a,find_number):
+    count=0
+    for i in a:
+        if find_number==i:
+            count+=1
+    return count
+
+a = [1, 3, 2, 6, 3, 2, 8, 2, 9, 2, 7, 3]
+find_number=2
+print(count_element(a,find_number))
+    
+    
         
 
 
