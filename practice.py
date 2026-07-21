@@ -2079,9 +2079,27 @@ b=3
 # print(reversed_list)
 # reversed_list=[numbers[i] for i  in range (len(numbers)-1,-1,-1)]
 # print(reversed_list)
-list=[2,3,4,5]
-lst=[list[len(list)-i]for i in range(1,len(list)+1)]
-print(lst)
+# list=[2,3,4,5]
+# lst=[list[len(list)-i]for i in range(1,len(list)+1)]
+# print(lst)
+# Cloning or Copying a List - Python
+# its a build in function that creates shallow copy of a list
+# a=[12,5,6,7,8,8]
+# b=a.copy()
+# print(b)
+# a=[1,2,3,4,5]
+# b=a[:]
+# print(b)
+# a=[1,2,3,4,5]
+# b=list(a)
+# print(b)
+# a=[1,2,3,4,5]
+# b=[item for item in a]
+# print(b)
+# import copy
+# a=[[1,2],[3,4],[5,6]]
+# b=copy.deepcopy(a)
+# print(b)
 
         
 
