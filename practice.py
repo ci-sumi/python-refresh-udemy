@@ -2100,6 +2100,10 @@ b=3
 # a=[[1,2],[3,4],[5,6]]
 # b=copy.deepcopy(a)
 # print(b)
+num1=[1,2,3,4]
+num2=[]
+num2.extend(num1)
+print(num2)
 
         
 
