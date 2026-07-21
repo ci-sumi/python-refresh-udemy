@@ -2100,10 +2100,13 @@ b=3
 # a=[[1,2],[3,4],[5,6]]
 # b=copy.deepcopy(a)
 # print(b)
-num1=[1,2,3,4]
-num2=[]
-num2.extend(num1)
-print(num2)
+# num1=[1,2,3,4]
+# num2=[]
+# num2.extend(num1)
+# print(num2)
+# Count Occurrences of an Element in a List in Python
+a = [1, 3, 2, 6, 3, 2, 8, 2, 9, 2, 7, 3]
+print(a.count(2))
 
         
 
