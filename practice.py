@@ -2134,14 +2134,18 @@ b=3
 # sum_of_list=sum(a)
 # average=sum_of_list/len(a)
 # print(f"Sum: {sum_of_list}, Average: {average}")
-a=[10,20,30,40]
-sum=0
-l=0
-for val in a:
-    val+=val
-    l+=1
-avg=val/l if a else 0
-print(f"Sum of list {val} and length of a list {l}")
+# a=[10,20,30,40]
+# sum=0
+# l=0
+# for val in a:
+#     val+=val
+#     l+=1
+# avg=val/l if a else 0
+# print(f"Sum of list {val} and length of a list {l}")
+# Sum of Number Digits in List in Python
+a = [123, 456, 789]
+result=[sum(int(digit) for digit in str(val)) for val in a]
+print(result)
 
 
 
