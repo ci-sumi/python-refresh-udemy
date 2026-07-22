@@ -2126,15 +2126,14 @@ b=3
 # res=Counter(a)
 # print(res[3])
 # Python String count() Method
-s = "hello world"
-res=s.count('o')
-print(res)
-
-    
-    
-        
-
-
+# s = "hello world"
+# res=s.count('o')
+# print(res)
+# Find Sum and Average of List in Python
+a = [10, 20, 30, 40, 50]
+sum_of_list=sum(a)
+average=sum_of_list/len(a)
+print(f"Sum: {sum_of_list}, Average: {average}")
 
 
 
