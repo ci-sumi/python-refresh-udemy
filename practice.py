@@ -2143,10 +2143,12 @@ b=3
 # avg=val/l if a else 0
 # print(f"Sum of list {val} and length of a list {l}")
 # Sum of Number Digits in List in Python
+# a = [123, 456, 789]
+# result=[sum(int(digit) for digit in str(val)) for val in a]
+# print(result)
 a = [123, 456, 789]
-result=[sum(int(digit) for digit in str(val)) for val in a]
+result=list(map(lambda val:sum(int(digit) for digit in str(val)),a))
 print(result)
-
 
 
 
