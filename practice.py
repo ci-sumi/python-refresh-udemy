@@ -2149,15 +2149,18 @@ b=3
 # a = [123, 456, 789]
 # result=list(map(lambda val:sum(int(digit) for digit in str(val)),a))
 # print(result)
-a = [123, 456, 789]
-res=[]
-for val in a:
-    total=0
-    while val>0:
-        total+=val%10
-        val//=10
-    res.append(total)
+# a = [123, 456, 789]
+# res=[]
+# for val in a:
+#     total=0
+#     while val>0:
+#         total+=val%10
+#         val//=10
+#     res.append(total)
 
+# print(res)
+a=[123,456,789]
+res=[sum(map(int,str(val))) for val in a]
 print(res)
     
 
