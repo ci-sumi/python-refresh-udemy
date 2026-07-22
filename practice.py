@@ -2130,10 +2130,18 @@ b=3
 # res=s.count('o')
 # print(res)
 # Find Sum and Average of List in Python
-a = [10, 20, 30, 40, 50]
-sum_of_list=sum(a)
-average=sum_of_list/len(a)
-print(f"Sum: {sum_of_list}, Average: {average}")
+# a = [10, 20, 30, 40, 50]
+# sum_of_list=sum(a)
+# average=sum_of_list/len(a)
+# print(f"Sum: {sum_of_list}, Average: {average}")
+a=[10,20,30,40]
+sum=0
+l=0
+for val in a:
+    val+=val
+    l+=1
+avg=val/l if a else 0
+print(f"Sum of list {val} and length of a list {l}")
 
 
 
