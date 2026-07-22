@@ -2167,10 +2167,16 @@ b=3
 # for val in a:
 #     res =val*res
 # print(res)
-import math
+# import math
+# a=[2,4,8,3]
+# res=math.prod(a)
+# print(res)
+from functools import reduce
+from operator import mul
 a=[2,4,8,3]
-res=math.prod(a)
+res=reduce(mul,a)
 print(res)
+
     
 
 
