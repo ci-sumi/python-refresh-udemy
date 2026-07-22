@@ -2159,8 +2159,13 @@ b=3
 #     res.append(total)
 
 # print(res)
-a=[123,456,789]
-res=[sum(map(int,str(val))) for val in a]
+# a=[123,456,789]
+# res=[sum(map(int,str(val))) for val in a]
+# print(res)
+a = [2, 4, 8, 3]
+res=1
+for val in a:
+    res =val*res
 print(res)
     
 
