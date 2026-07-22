@@ -2162,10 +2162,14 @@ b=3
 # a=[123,456,789]
 # res=[sum(map(int,str(val))) for val in a]
 # print(res)
-a = [2, 4, 8, 3]
-res=1
-for val in a:
-    res =val*res
+# a = [2, 4, 8, 3]
+# res=1
+# for val in a:
+#     res =val*res
+# print(res)
+import math
+a=[2,4,8,3]
+res=math.prod(a)
 print(res)
     
 
