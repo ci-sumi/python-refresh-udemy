@@ -2171,15 +2171,15 @@ b=3
 # a=[2,4,8,3]
 # res=math.prod(a)
 # print(res)
-from functools import reduce
-from operator import mul
-a=[2,4,8,3]
-res=reduce(mul,a)
-print(res)
-
-    
-
-
+# from functools import reduce
+# from operator import mul
+# a=[2,4,8,3]
+# res=reduce(mul,a)
+# print(res)
+# Print the elements of a list greater than 80
+a = [85, 90, 75, 88, 92, 70]
+result = [x for x in a if x > 80]
+print(result)
 
 
 
