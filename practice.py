@@ -2177,10 +2177,16 @@ b=3
 # res=reduce(mul,a)
 # print(res)
 # Print the elements of a list greater than 80
-a = [85, 90, 75, 88, 92, 70]
-result = [x for x in a if x > 80]
-print(result)
+# a = [85, 90, 75, 88, 92, 70]
+# result = [x for x in a if x > 80]
+# print(result)
+def multipply_elements(a):
+    result=1
+    for val in a:
+        result*=val
+    return result
 
+print(multipply_elements([2,4,8,3]))
 
 
 
