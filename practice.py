@@ -2189,8 +2189,15 @@ b=3
 # print(multipply_elements([2,4,8,3]))
 # Find Smallest Number in a List
 a = [8, 3, 5, 1, 9, 12]
-res=min(a)
+# res=min(a)
+# print(res)
+res=a[0]
+for val in a:
+    if val<res:
+        res=val
+
 print(res)
+        
 
 
 
