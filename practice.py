@@ -2191,12 +2191,24 @@ b=3
 a = [8, 3, 5, 1, 9, 12]
 # res=min(a)
 # print(res)
-res=a[0]
-for val in a:
-    if val<res:
-        res=val
+# res=a[0]
+# for val in a:
+#     if val<res:
+#         res=val
 
-print(res)
+# print(res)
+# Using Sorting
+a = [8, 3, 5, 1, 9, 12]
+# a.sort()
+# res=a[0]
+# print(res)
+def getsmaller(a,b):
+    res=[]
+    for e in a:
+        if e<b:
+            res.append(e)
+    return res
+print(getsmaller(a,10))
         
 
 
