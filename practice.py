@@ -2180,13 +2180,18 @@ b=3
 # a = [85, 90, 75, 88, 92, 70]
 # result = [x for x in a if x > 80]
 # print(result)
-def multipply_elements(a):
-    result=1
-    for val in a:
-        result*=val
-    return result
+# def multipply_elements(a):
+#     result=1
+#     for val in a:
+#         result*=val
+#     return result
 
-print(multipply_elements([2,4,8,3]))
+# print(multipply_elements([2,4,8,3]))
+# Find Smallest Number in a List
+a = [8, 3, 5, 1, 9, 12]
+res=min(a)
+print(res)
+
 
 
 
