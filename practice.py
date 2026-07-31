@@ -2213,9 +2213,15 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[10,24,5,67,89,12]
 # res=max(a)
 # print(res)
-from functools import reduce
+# from functools import reduce
+# a=[10,24,76,23,12]
+# res=reduce(lambda x,y:x if x>y else y,a)
+# print(res)
 a=[10,24,76,23,12]
-res=reduce(lambda x,y:x if x>y else y,a)
+res=a[0]
+for n in a:
+    if n>res:
+        res=n
 print(res)
 
         
