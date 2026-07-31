@@ -2210,8 +2210,12 @@ a = [8, 3, 5, 1, 9, 12]
 #     return res
 # print(getsmaller(a,10))
 # Find Largest Number in a List
-a=[10,24,5,67,89,12]
-res=max(a)
+# a=[10,24,5,67,89,12]
+# res=max(a)
+# print(res)
+from functools import reduce
+a=[10,24,76,23,12]
+res=reduce(lambda x,y:x if x>y else y,a)
 print(res)
 
         
