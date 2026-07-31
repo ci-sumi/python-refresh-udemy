@@ -2202,13 +2202,18 @@ a = [8, 3, 5, 1, 9, 12]
 # a.sort()
 # res=a[0]
 # print(res)
-def getsmaller(a,b):
-    res=[]
-    for e in a:
-        if e<b:
-            res.append(e)
-    return res
-print(getsmaller(a,10))
+# def getsmaller(a,b):
+#     res=[]
+#     for e in a:
+#         if e<b:
+#             res.append(e)
+#     return res
+# print(getsmaller(a,10))
+# Find Largest Number in a List
+a=[10,24,5,67,89,12]
+res=max(a)
+print(res)
+
         
 
 
