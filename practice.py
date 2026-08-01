@@ -1792,7 +1792,7 @@ a = [10, 20, 30, 40, 50]
 # print(a)
 # Different ways to Clear a List in Python
 #Clear method
-input=[10,20,30,40,50]
+# input=[10,20,30,40,50]
 # a.clear()
 # print(a)
 # del input[:]
@@ -2217,13 +2217,17 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[10,24,76,23,12]
 # res=reduce(lambda x,y:x if x>y else y,a)
 # print(res)
-a=[10,24,76,23,12]
-res=a[0]
-for n in a:
-    if n>res:
-        res=n
-print(res)
-
+# a=[10,24,76,23,12]
+# res=a[0]
+# for n in a:
+#     if n>res:
+#         res=n
+# print(res)
+# a=[10,24,76,23,12]
+# a.sort()
+# print(a[-1])
+sumis=list(map(int,input("Enter the numbers:").split(",")))
+print(sumis)
         
 
 
