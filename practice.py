@@ -2226,9 +2226,16 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[10,24,76,23,12]
 # a.sort()
 # print(a[-1])
-sumis=list(map(int,input("Enter the numbers:").split(",")))
-print(sumis)
-        
+# sumis=list(map(int,input("Enter the numbers:").split(",")))
+# print(sumis)
+# sumis=[int(x) for x in input("Enter the numbers:").split(",")]
+# Write a program that asks the user to enter 5 numbers and prints the largest number.
+input_numbers=input("Enter the numbers:")
+numbers=[int(x) for x in input_numbers.split(",")]
+if len(numbers)<=6:
+    print(numbers)
+else:
+    print("You are allowed to enter only numbers upto 5")
 
 
 
