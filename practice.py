@@ -2230,12 +2230,21 @@ a = [8, 3, 5, 1, 9, 12]
 # print(sumis)
 # sumis=[int(x) for x in input("Enter the numbers:").split(",")]
 # Write a program that asks the user to enter 5 numbers and prints the largest number.
-input_numbers=input("Enter the numbers:")
-numbers=[int(x) for x in input_numbers.split(",")]
-if len(numbers)<=6:
-    print(numbers)
-else:
-    print("You are allowed to enter only numbers upto 5")
+# input_numbers=input("Enter the numbers:")
+# numbers=[int(x) for x in input_numbers.split(",")]
+# if len(numbers)<=6:
+#     print(numbers)
+# else:
+#     print("You are allowed to enter only numbers upto 5")
+# Ask the user to enter numbers separated by commas and find the largest number.
+numbers=input("Enter the numbers:")
+numbers=[int(x)for x in numbers.split(",")]
+large=numbers[0]
+for n in numbers:
+    if n>large:
+        large=n
+print(large)
+    
 
 
 
