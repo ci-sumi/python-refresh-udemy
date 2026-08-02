@@ -2254,18 +2254,28 @@ a = [8, 3, 5, 1, 9, 12]
 # print(find_largest([4,9,2,15,7]))
 # Find both the largest and smallest numbers in a list without using max() or min().
 
-def find_largest(numbers):
-    min=numbers[1]
-    max=numbers[0]
-    for n in numbers:
-        if n>max:
-            max=n
-        if n<min:
-            min=n
-    return max,min
+# def find_largest(numbers):
+#     min=numbers[1]
+#     max=numbers[0]
+#     for n in numbers:
+#         if n>max:
+#             max=n
+#         if n<min:
+#             min=n
+#     return max,min
 
-result=find_largest([5,12,3,18,9])
-print(list(result))
+# result=find_largest([5,12,3,18,9])
+# print(list(result))
+test_list=[8,4,6,8,2,8]
+print("The original list:"+str(test_list))
+# test_list=str(test_list)
+# print(test_list)
+# print(type(test_list))
+temp=max(test_list)
+print(temp)
+res=[i for i,j in enumerate(test_list) if j==temp]
+print(str(res))
+
     
 
 
