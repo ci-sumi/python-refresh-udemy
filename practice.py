@@ -2278,11 +2278,18 @@ a = [8, 3, 5, 1, 9, 12]
 #Numpy :NUmbers and mathematical operations
 #pandas:Tables and data analysis
 # Using max() and min()
-a=[3,5,7,2,8]
-b=[4,9,1,6,0]
-c=max(max(a),max(b))
-d=min(min(a),min(b))
-print(c,d)
+# a=[3,5,7,2,8]
+# b=[4,9,1,6,0]
+# c=max(max(a),max(b))
+# d=min(min(a),min(b))
+# print(c,d)
+import numpy
+arry = numpy.array([1,5,4,8,3,7])
+max_element=numpy.max(arry)
+min_element=numpy.min(arry)
+print('maximum element in the array is:',max_element)
+print('minimum element in the array is:',min_element)
+
     
 
 
