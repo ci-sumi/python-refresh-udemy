@@ -2266,16 +2266,23 @@ a = [8, 3, 5, 1, 9, 12]
 
 # result=find_largest([5,12,3,18,9])
 # print(list(result))
-test_list=[8,4,6,8,2,8]
-print("The original list:"+str(test_list))
-# test_list=str(test_list)
-# print(test_list)
-# print(type(test_list))
-temp=max(test_list)
-print(temp)
-res=[i for i,j in enumerate(test_list) if j==temp]
-print(str(res))
-
+# test_list=[8,4,6,8,2,8]
+# print("The original list:"+str(test_list))
+# # test_list=str(test_list)
+# # print(test_list)
+# # print(type(test_list))
+# temp=max(test_list)
+# print(temp)
+# res=[i for i,j in enumerate(test_list) if j==temp]
+# print(str(res))
+#Numpy :NUmbers and mathematical operations
+#pandas:Tables and data analysis
+# Using max() and min()
+a=[3,5,7,2,8]
+b=[4,9,1,6,0]
+c=max(max(a),max(b))
+d=min(min(a),min(b))
+print(c,d)
     
 
 
