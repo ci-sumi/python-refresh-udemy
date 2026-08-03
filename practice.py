@@ -2283,12 +2283,23 @@ a = [8, 3, 5, 1, 9, 12]
 # c=max(max(a),max(b))
 # d=min(min(a),min(b))
 # print(c,d)
-import numpy
-arry = numpy.array([1,5,4,8,3,7])
-max_element=numpy.max(arry)
-min_element=numpy.min(arry)
-print('maximum element in the array is:',max_element)
-print('minimum element in the array is:',min_element)
+# import numpy
+# arry = numpy.array([1,5,4,8,3,7])
+# max_element=numpy.max(arry)
+# min_element=numpy.min(arry)
+# print('maximum element in the array is:',max_element)
+# print('minimum element in the array is:',min_element)
+# Find Second Largest Number in a List
+a=[10,20,4,45,99]
+max1=max2=float('-inf')
+for n in a:
+    if n>max1:
+        max2=max1
+        max1=n
+    else:
+        n>max2 and n!=max1
+        max2=n
+print(max2)
 
     
 
