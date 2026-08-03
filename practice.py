@@ -2305,6 +2305,9 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[10,20,4,45,99]
 # res=heapq.nlargest(2,a)
 # print(res[1])
+a=[10,20,4,45,99]
+a.sort(reverse=True)
+print(a[1])
 
     
 
