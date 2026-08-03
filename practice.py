@@ -2305,10 +2305,15 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[10,20,4,45,99]
 # res=heapq.nlargest(2,a)
 # print(res[1])
-a=[10,20,4,45,99]
-a.sort(reverse=True)
-print(a[1])
-
+# a=[10,20,4,45,99]
+# a.sort(reverse=True)
+# print(a[1])
+# a=[1,2,3,4,5,6,7,8,9,10]
+# res=[val for val in a if val%2==0]
+# print(res)
+a=[1,2,3,4,5,6,7,8,9,10]
+res=list(filter(lambda val:val%2==0,a))
+print(res)
 
     
 
