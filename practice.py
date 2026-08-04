@@ -2311,8 +2311,11 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[1,2,3,4,5,6,7,8,9,10]
 # res=[val for val in a if val%2==0]
 # print(res)
-a=[1,2,3,4,5,6,7,8,9,10]
-res=list(filter(lambda val:val%2==0,a))
+# a=[1,2,3,4,5,6,7,8,9,10]
+# res=list(filter(lambda val:val%2==0,a))
+# print(res)
+a=[1,2,3,4,5,6,7,8,9]
+res=[val for val in a if val & 1==0]
 print(res)
 
     
