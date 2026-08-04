@@ -2317,13 +2317,15 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[1,2,3,4,5,6,7,8,9]
 # res=[val for val in a if val & 1==0]
 # print(res)
-a = [10, 15, 23, 42, 37, 51, 62, 5]
+# a = [10, 15, 23, 42, 37, 51, 62, 5]
 # for n in a:
 #     if n%2!=0:
 #         print(n,end=" ")
-result=[val for val in a if val%2!=0]
-print(result)
-    
+# result=[val for val in a if val%2!=0]
+# print(result)
+a=[10,15,23,42,37,51,62,5]
+res=list(filter(lambda val:val%2!=0,a))
+print(res)
 
     
 
