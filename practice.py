@@ -2318,9 +2318,11 @@ a = [8, 3, 5, 1, 9, 12]
 # res=[val for val in a if val & 1==0]
 # print(res)
 a = [10, 15, 23, 42, 37, 51, 62, 5]
-for n in a:
-    if n%2!=0:
-        print(n,end=" ")
+# for n in a:
+#     if n%2!=0:
+#         print(n,end=" ")
+result=[val for val in a if val%2!=0]
+print(result)
     
 
     
