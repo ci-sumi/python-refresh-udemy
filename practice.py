@@ -2323,9 +2323,19 @@ a = [8, 3, 5, 1, 9, 12]
 #         print(n,end=" ")
 # result=[val for val in a if val%2!=0]
 # print(result)
-a=[10,15,23,42,37,51,62,5]
-res=list(filter(lambda val:val%2!=0,a))
-print(res)
+# a=[10,15,23,42,37,51,62,5]
+# res=list(filter(lambda val:val%2!=0,a))
+# print(res)
+def oddnum(list,n=0):
+    if n==len(list):
+        exit()
+    if l[n]%2==0:
+        print(list[n],end=" ")
+    oddnum(list,n+1)
+
+l=[1,2,3,4,5,6,7]
+oddnum(l)
+    
 
     
 
