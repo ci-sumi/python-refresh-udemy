@@ -2355,17 +2355,22 @@ a = [8, 3, 5, 1, 9, 12]
 # even_count=len([num for num in a if num%2==0])
 # odd_count=len([num for num in a if num%2!=0])
 # print(even_count,odd_count)
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-even_count=0
-odd_count=0
-for num in a:
-    if num^1 ==num+1:
-        even_count+=1
-    else:
-        odd_count+=1
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# even_count=0
+# odd_count=0
+# for num in a:
+#     if num^1 ==num+1:
+#         even_count+=1
+#     else:
+#         odd_count+=1
 
-print(even_count)
-print(odd_count)
+# print(even_count)
+# print(odd_count)
+# Print Positive Numbers in a List
+# Using List Comprehension
+a=[-10,15,0,20,-5,30,-2]
+res=[i for i in a if i>0]
+print(res)
     
 
     
