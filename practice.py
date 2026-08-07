@@ -2326,15 +2326,27 @@ a = [8, 3, 5, 1, 9, 12]
 # a=[10,15,23,42,37,51,62,5]
 # res=list(filter(lambda val:val%2!=0,a))
 # print(res)
-def oddnum(list,n=0):
-    if n==len(list):
-        exit()
-    if l[n]%2==0:
-        print(list[n],end=" ")
-    oddnum(list,n+1)
+# def oddnum(list,n=0):
+#     if n==len(list):
+#         exit()
+#     if l[n]%2==0:
+#         print(list[n],end=" ")
+#     oddnum(list,n+1)
 
-l=[1,2,3,4,5,6,7]
-oddnum(l)
+# l=[1,2,3,4,5,6,7]
+# oddnum(l)
+##Creating a list of even numbers from 1 to 20
+a=[1,2,3,4,5,6,7,8,9,10]
+even=0
+odd =0
+for n in a:
+    if n%2==0:
+        even+=1
+    else:
+        odd+=1
+print("Even and odd number is:",even,odd)
+
+
     
 
     
