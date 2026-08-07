@@ -2369,8 +2369,14 @@ a = [8, 3, 5, 1, 9, 12]
 # Print Positive Numbers in a List
 # Using List Comprehension
 a=[-10,15,0,20,-5,30,-2]
-res=[i for i in a if i>0]
-print(res)
+# res=[i for i in a if i>0]
+# print(res)
+# res=list(filter(lambda x:x>0,a))
+# print(res)
+for val in a:
+    if val>0:
+        print(val)
+
     
 
     
