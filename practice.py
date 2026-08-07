@@ -2345,11 +2345,16 @@ a = [8, 3, 5, 1, 9, 12]
 #     else:
 #         odd+=1
 # print("Even and odd number is:",even,odd)
-a=[1,2,3,4,5,6,7,8,9]
-even_count=len(list(filter(lambda num:num%2==0,a)))
-print(even_count)
-odd_numbers=len(list(filter(lambda num:num%2!=0,a)))
-print(odd_numbers)
+# a=[1,2,3,4,5,6,7,8,9]
+# even_count=len(list(filter(lambda num:num%2==0,a)))
+# print(even_count)
+# odd_numbers=len(list(filter(lambda num:num%2!=0,a)))
+# print(odd_numbers)
+# Using a List Comprehension
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+even_count=len([num for num in a if num%2==0])
+odd_count=len([num for num in a if num%2!=0])
+print(even_count,odd_count)
 
     
 
