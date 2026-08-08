@@ -2381,8 +2381,13 @@ a=[-10,15,0,20,-5,30,-2]
 # res=[num for num in a if num<0]
 # print(res)
 a = [5, -3, 7, -1, 2, -9, 4]
-result=list(filter(lambda num:num<0,a))
-print(result)
+# result=list(filter(lambda num:num<0,a))
+# print(result)
+res=[]
+for num in a:
+    if num<0:
+        res.append(num)
+print(res)
 
 
 
