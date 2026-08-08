@@ -2373,9 +2373,15 @@ a=[-10,15,0,20,-5,30,-2]
 # print(res)
 # res=list(filter(lambda x:x>0,a))
 # print(res)
-for val in a:
-    if val>0:
-        print(val)
+# for val in a:
+#     if val>0:
+#         print(val)
+# program to print negative numbers in a list
+a = [5, -3, 7, -1, 2, -9, 4]
+res=[num for num in a if num<0]
+print(res)
+
+
 
     
 
