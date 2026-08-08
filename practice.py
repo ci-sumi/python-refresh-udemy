@@ -2399,9 +2399,11 @@ a=[-10,15,0,20,-5,30,-2]
 #         print(j,end="")
 start=-3
 end=4
-li=list(range(start,end+1))
-resu=list(filter(lambda x:x<0,li))
-print(resu)
+# li=list(range(start,end+1))
+# resu=list(filter(lambda x:x<0,li))
+# print(resu)
+result=[i for i in range(start,end+1) if i<0]
+print(result)
 
 
 
