@@ -2388,9 +2388,16 @@ a=[-10,15,0,20,-5,30,-2]
 #     if num<0:
 #         res.append(num)
 # print(res)
-a = [5, -3, 7, -1, 2, -9, 4]
-negatives=[num for num in map(lambda x:x if x<0 else None,a)if num is not None]
-print(negatives)
+# a = [5, -3, 7, -1, 2, -9, 4]
+# negatives=[num for num in map(lambda x:x if x<0 else None,a)if num is not None]
+# print(negatives)
+start=-3
+end=4
+li=list(range(start,end+1))
+for i,j in enumerate(li):
+    if j<0:
+        print(j,end="")
+
 
 
 
