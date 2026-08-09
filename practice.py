@@ -2423,10 +2423,20 @@ a=[-10,15,0,20,-5,30,-2]
 # remove=[20,30,60]
 # result=[n for n in a if n not in remove]
 # print(result)
+# a=[10,20,30,40,50,60,70]
+# remove=[20,30,60]
+# result=list(filter(lambda x:x not in remove,a))
+# print(result)
 a=[10,20,30,40,50,60,70]
 remove=[20,30,60]
-result=list(filter(lambda x:x not in remove,a))
-print(result)
+res=[]
+for n in a:
+    if n not in remove:
+        res.append(n)
+print(res)
+
+        
+
 
 
 
