@@ -2405,16 +2405,20 @@ a=[-10,15,0,20,-5,30,-2]
 # result=[i for i in range(start,end+1) if i<0]
 # print(result)
 # count positive and negative numbers in a list
+# a=[10,-20,30,-40,50,-60]
+# pos=0
+# neg=0
+# for n in a:
+#     if n>0:
+#         pos+=1
+#     else:
+#         neg+=1
+# print(pos)
+# print(neg)
 a=[10,-20,30,-40,50,-60]
-pos=0
-neg=0
-for n in a:
-    if n>0:
-        pos+=1
-    else:
-        neg+=1
-print(pos)
-print(neg)
+resu=len([n for n in a if n<0])
+print(resu)
+
 
 
 
