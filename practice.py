@@ -2397,13 +2397,24 @@ a=[-10,15,0,20,-5,30,-2]
 # for i,j in enumerate(li):
 #     if j<0:
 #         print(j,end="")
-start=-3
-end=4
+# start=-3
+# end=4
 # li=list(range(start,end+1))
 # resu=list(filter(lambda x:x<0,li))
 # print(resu)
-result=[i for i in range(start,end+1) if i<0]
-print(result)
+# result=[i for i in range(start,end+1) if i<0]
+# print(result)
+# count positive and negative numbers in a list
+a=[10,-20,30,-40,50,-60]
+pos=0
+neg=0
+for n in a:
+    if n>0:
+        pos+=1
+    else:
+        neg+=1
+print(pos)
+print(neg)
 
 
 
