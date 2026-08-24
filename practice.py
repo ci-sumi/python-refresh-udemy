@@ -2441,8 +2441,11 @@ a=[-10,15,0,20,-5,30,-2]
 #         a.remove(val)
 # print(a)
 # Remove Empty Tuples from a List - Python
+# a=[(1,2),(),(3,4),(),(5,)]
+# res=[t for t in a if t]
+# print(res)
 a=[(1,2),(),(3,4),(),(5,)]
-res=[t for t in a if t]
+res=list(filter(None,a))
 print(res)
         
 
