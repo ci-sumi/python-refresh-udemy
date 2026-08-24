@@ -2434,13 +2434,16 @@ a=[-10,15,0,20,-5,30,-2]
 #     if n not in remove:
 #         res.append(n)
 # print(res)
-a=[10,20,30,40,50,60,70]
-remove=[20,40,60]
-for val in remove:
-    while val in a:
-        a.remove(val)
-print(a)
-
+# a=[10,20,30,40,50,60,70]
+# remove=[20,40,60]
+# for val in remove:
+#     while val in a:
+#         a.remove(val)
+# print(a)
+# Remove Empty Tuples from a List - Python
+a=[(1,2),(),(3,4),(),(5,)]
+res=[t for t in a if t]
+print(res)
         
 
 
