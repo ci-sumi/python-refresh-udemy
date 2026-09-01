@@ -2453,14 +2453,17 @@ a=[-10,15,0,20,-5,30,-2]
 #         res.append(t)
 # print(res)
 # Program to Print Duplicates from a List of Integers in Python
-a=[1,2,3,2,4,5,1,3]
-seen=set()
-duplicates=set()
-for num in a:
-    if num in seen:
-        duplicates.add(num)
-    else:
-        seen.add(num)
+# a=[1,2,3,2,4,5,1,3]
+# seen=set()
+# duplicates=set()
+# for num in a:
+#     if num in seen:
+#         duplicates.add(num)
+#     else:
+#         seen.add(num)
+# print(duplicates)
+a=[1,2,3,4,56,56]
+duplicates={x for x in set(a) if a.count(x)>1}
 print(duplicates)
         
 
