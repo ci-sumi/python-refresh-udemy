@@ -2462,9 +2462,14 @@ a=[-10,15,0,20,-5,30,-2]
 #     else:
 #         seen.add(num)
 # print(duplicates)
-a=[1,2,3,4,56,56]
-duplicates={x for x in set(a) if a.count(x)>1}
-print(duplicates)
+# a=[1,2,3,4,56,56]
+# duplicates={x for x in set(a) if a.count(x)>1}
+# print(duplicates)
+# Remove first element from list in Python
+a=[1,2,3,4]
+del a[0]
+print(a)
+
         
 
 
