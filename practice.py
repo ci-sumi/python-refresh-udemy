@@ -2467,9 +2467,12 @@ a=[-10,15,0,20,-5,30,-2]
 # print(duplicates)
 # Remove first element from list in Python
 a=[1,2,3,4]
-del a[0]
+a=a[1:]
+# del a[0]
+# print(a)
+# a.pop(0)
+# print(a)
 print(a)
-
         
 
 
