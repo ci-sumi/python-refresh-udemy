@@ -2466,13 +2466,17 @@ a=[-10,15,0,20,-5,30,-2]
 # duplicates={x for x in set(a) if a.count(x)>1}
 # print(duplicates)
 # Remove first element from list in Python
-a=[1,2,3,4]
-a=a[1:]
-# del a[0]
+# a=[1,2,3,4]
+# a=a[1:]
+# # del a[0]
+# # print(a)
+# # a.pop(0)
+# # print(a)
 # print(a)
-# a.pop(0)
-# print(a)
-print(a)
+# Remove Duplicates from a List in Python
+a=[1,2,2,3,4,4,5]
+result=list(set(a))
+print(result)
         
 
 
