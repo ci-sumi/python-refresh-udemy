@@ -2483,9 +2483,11 @@ a=[-10,15,0,20,-5,30,-2]
 #         result_set.append(i)
 # print(result_set)
 a=[1,2,2,3,4,4,5]
-result_set=[]
-[result_set.append(x) for x in a if x not in result_set]
-print(result_set)
+# result_set=[]
+# [result_set.append(x) for x in a if x not in result_set]
+# print(result_set)
+print(list(dict.fromkeys(a)))
+
 
         
 
