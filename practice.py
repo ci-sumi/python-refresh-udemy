@@ -2474,13 +2474,17 @@ a=[-10,15,0,20,-5,30,-2]
 # # print(a)
 # print(a)
 # Remove Duplicates from a List in Python
-a=[1,2,2,3,4,4,5]
+
 # result=list(set(a))
 # print(result)
+# result_set=[]
+# for i in a:
+#     if i not in result_set:
+#         result_set.append(i)
+# print(result_set)
+a=[1,2,2,3,4,4,5]
 result_set=[]
-for i in a:
-    if i not in result_set:
-        result_set.append(i)
+[result_set.append(x) for x in a if x not in result_set]
 print(result_set)
 
         
