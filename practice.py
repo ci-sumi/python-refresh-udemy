@@ -2494,8 +2494,10 @@ b=[4,5,6]
 # c=a+b
 # print(c)
 #extend
-a.extend(b)
-print(a)
+# a.extend(b)
+# print(a)
+c=[*a,*b]
+print(c)
 
         
 
