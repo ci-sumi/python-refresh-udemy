@@ -2496,8 +2496,15 @@ b=[4,5,6]
 #extend
 # a.extend(b)
 # print(a)
-c=[*a,*b]
-print(c)
+# c=[*a,*b]
+# print(c)
+result=[]
+for i in a:
+    result.append(i)
+for i in b:
+    result.append(i)
+
+print(result)
 
         
 
