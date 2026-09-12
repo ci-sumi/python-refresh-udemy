@@ -2491,8 +2491,11 @@ a=[-10,15,0,20,-5,30,-2]
 # Merge Two Lists in Python
 a=[1,2,3]
 b=[4,5,6]
-c=a+b
-print(c)
+# c=a+b
+# print(c)
+#extend
+a.extend(b)
+print(a)
 
         
 
