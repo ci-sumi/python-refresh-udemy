@@ -2489,22 +2489,25 @@ a=[-10,15,0,20,-5,30,-2]
 # print(list(dict.fromkeys(a)))
 
 # Merge Two Lists in Python
-a=[1,2,3]
-b=[4,5,6]
+
 # c=a+b
 # print(c)
 #extend
 # a.extend(b)
 # print(a)
 # c=[*a,*b]
-# print(c)
-result=[]
-for i in a:
-    result.append(i)
-for i in b:
-    result.append(i)
+# # print(c)
+# result=[]
+# for i in a:
+#     result.append(i)
+# for i in b:
+#     result.append(i)
 
-print(result)
+# print(result)
+from itertools import chain
+a=[1,2,3]
+b=[4,5,6]
+c=list(chain,(a,b))
 
         
 
