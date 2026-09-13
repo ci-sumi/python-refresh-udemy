@@ -2504,10 +2504,15 @@ a=[-10,15,0,20,-5,30,-2]
 #     result.append(i)
 
 # print(result)
-from itertools import chain
-a=[1,2,3]
+# from itertools import chain
+# a=[1,2,3]
+# b=[4,5,6]
+# c=list(chain,(a,b))
+a=[1,2,3,4]
 b=[4,5,6]
-c=list(chain,(a,b))
+c=[item for item in a] +[item for item in b]
+print(c)
+
 
         
 
