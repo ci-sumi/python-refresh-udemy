@@ -2514,8 +2514,12 @@ a=[-10,15,0,20,-5,30,-2]
 # print(c)
 # Iterate Over a List in Python
 a=[1,3,5,7,9]
-for x in a:
-    print(x)
+# for x in a:
+#     print(x)
+# for i, x in enumerate(a):
+#     print(i,x)
+
+    
     
 
         
