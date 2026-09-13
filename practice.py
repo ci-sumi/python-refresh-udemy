@@ -2513,12 +2513,16 @@ a=[-10,15,0,20,-5,30,-2]
 # c=[item for item in a] +[item for item in b]
 # print(c)
 # Iterate Over a List in Python
-a=[1,3,5,7,9]
 # for x in a:
 #     print(x)
 # for i, x in enumerate(a):
 #     print(i,x)
-
+a=[1,3,5,7,9]
+i=0
+while i<len(a):
+    print(a[i])
+    i+=1
+    
     
     
 
