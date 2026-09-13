@@ -2517,12 +2517,13 @@ a=[-10,15,0,20,-5,30,-2]
 #     print(x)
 # for i, x in enumerate(a):
 #     print(i,x)
+# i=0
+# while i<len(a):
+#     print(a[i])
+#     i+=1
 a=[1,3,5,7,9]
-i=0
-while i<len(a):
+for i in range(len(a)):
     print(a[i])
-    i+=1
-    
     
     
 
