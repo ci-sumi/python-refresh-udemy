@@ -2508,11 +2508,15 @@ a=[-10,15,0,20,-5,30,-2]
 # a=[1,2,3]
 # b=[4,5,6]
 # c=list(chain,(a,b))
-a=[1,2,3,4]
-b=[4,5,6]
-c=[item for item in a] +[item for item in b]
-print(c)
-
+# a=[1,2,3,4]
+# b=[4,5,6]
+# c=[item for item in a] +[item for item in b]
+# print(c)
+# Iterate Over a List in Python
+a=[1,3,5,7,9]
+for x in a:
+    print(x)
+    
 
         
 
