@@ -2527,8 +2527,12 @@ a=[-10,15,0,20,-5,30,-2]
 # print([i for i in a])
 # Find average of a list in python
 a=[1,2,3,4,5]
-avg=sum(a)/len(a)
-print(avg)
+# avg=sum(a)/len(a)
+# print(avg)
+total=0
+for i in a:
+    total+=i
+print(total)
 
 
     
