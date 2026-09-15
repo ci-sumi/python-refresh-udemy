@@ -2534,16 +2534,20 @@ a=[-10,15,0,20,-5,30,-2]
 #     total+=i
 # print(total/len(a))
 ##Write a python function takes numbers as list and return the average of list
-def avg(n):
-    total=0
-    for i in n:
-        total+=i
-    return total
+# def avg(n):
+#     total=0
+#     for i in n:
+#         total+=i
+#     return total
     
 
-n=[4,5,6,7]
-print(avg(n))
-
+# n=[4,5,6,7]
+# print(avg(n))
+#Perform Append at Beginning of List in Python
+from collections import deque
+li=deque([1,3,4,5,7])
+li.appendleft(6)
+print(list(li))
 
     
     
