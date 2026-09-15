@@ -2548,9 +2548,13 @@ a=[-10,15,0,20,-5,30,-2]
 # li=deque([1,3,4,5,7])
 # li.appendleft(6)
 # print(list(li))
+# li=[1,3,4,5,7]
+# li.insert(0,6)
+# print(li)
 li=[1,3,4,5,7]
-li.insert(0,6)
+li=[6]+li
 print(li)
+
 
     
     
