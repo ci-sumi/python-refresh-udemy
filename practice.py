@@ -2556,11 +2556,16 @@ a=[-10,15,0,20,-5,30,-2]
 # print(li)
 # print(6+li[:])
 # Insertion of two lists
+# a=[4, 9, 1, 17, 11, 26, 28, 54, 69]
+# b=[9, 9, 74, 21, 45, 11, 63, 28, 26]
+# res=list(set(a) & set(b))
+# print(res)
+#Using Counter 
+from collections import Counter
 a=[4, 9, 1, 17, 11, 26, 28, 54, 69]
-b=[9, 9, 74, 21, 45, 11, 63, 28, 26]
-res=list(set(a) & set(b))
+b = [9, 9, 74, 21, 45, 11, 63, 28, 26]
+res=list((Counter(a) & Counter(b)).elements())
 print(res)
-
     
     
 
