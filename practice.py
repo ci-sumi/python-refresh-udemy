@@ -2551,10 +2551,15 @@ a=[-10,15,0,20,-5,30,-2]
 # li=[1,3,4,5,7]
 # li.insert(0,6)
 # print(li)
-li=[1,3,4,5,7]
-li=[6]+li
-print(li)
-
+# li=[1,3,4,5,7]
+# li=[6]+li
+# print(li)
+# print(6+li[:])
+# Insertion of two lists
+a=[4, 9, 1, 17, 11, 26, 28, 54, 69]
+b=[9, 9, 74, 21, 45, 11, 63, 28, 26]
+res=list(set(a) & set(b))
+print(res)
 
     
     
