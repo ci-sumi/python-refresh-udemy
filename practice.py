@@ -2572,10 +2572,15 @@ a=[-10,15,0,20,-5,30,-2]
 # print(resu)
 # Select random values from a list python
 #using random.choice()
+# import random
+# a=[1,4,5,2,7]
+# res=random.choice(a)
+# print(res)
+# Using random.randint()
 import random
 a=[1,4,5,2,7]
-res=random.choice(a)
-print(res)
+idx=random.randint(0,len(a)-1)
+print(idx)
     
     
 
