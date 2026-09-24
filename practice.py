@@ -2577,10 +2577,15 @@ a=[-10,15,0,20,-5,30,-2]
 # res=random.choice(a)
 # print(res)
 # Using random.randint()
+# import random
+# a=[1,4,5,2,7]
+# idx=random.randint(0,len(a)-1)
+# print(idx)
+#Using random.sample()
 import random
 a=[1,4,5,2,7]
-idx=random.randint(0,len(a)-1)
-print(idx)
+res=random.sample(a,1)[0]
+print(res)
     
     
 
