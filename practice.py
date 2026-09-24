@@ -2566,11 +2566,16 @@ a=[-10,15,0,20,-5,30,-2]
 # b = [9, 9, 74, 21, 45, 11, 63, 28, 26]
 # res=list((Counter(a) & Counter(b)).elements())
 # print(res)
-a=[4, 9, 1, 17, 11, 26, 28, 54, 69]
-b = [9, 9, 74, 21, 45, 11, 63, 28, 26]
-resu=[x for x in a if x in b]
-print(resu)
-
+# a=[4, 9, 1, 17, 11, 26, 28, 54, 69]
+# b = [9, 9, 74, 21, 45, 11, 63, 28, 26]
+# resu=[x for x in a if x in b]
+# print(resu)
+# Select random values from a list python
+#using random.choice()
+import random
+a=[1,4,5,2,7]
+res=random.choice(a)
+print(res)
     
     
 
