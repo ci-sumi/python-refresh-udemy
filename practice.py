@@ -2587,11 +2587,15 @@ a=[-10,15,0,20,-5,30,-2]
 # res=random.sample(a,1)[0]
 # print(res)
 # using numpy.random.choice
-import numpy as np
-a=[1,4,5,2,7]
-res=np.random.choice(a)
+# import numpy as np
+# a=[1,4,5,2,7]
+# res=np.random.choice(a)
+# print(res)
+# Check if two lists are identical in Python
+a=[1,2,3]
+b=[1,2,4]
+res=a==b
 print(res)
-    
     
 
         
