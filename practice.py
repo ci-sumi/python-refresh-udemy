@@ -2594,8 +2594,17 @@ a=[-10,15,0,20,-5,30,-2]
 # Check if two lists are identical in Python
 a=[1,2,3]
 b=[1,2,4]
-res=a==b
-print(res)
+# res=a==b
+# print(res)
+flag=True
+if len(a)!=len(b):
+    flag=False
+else:
+    for i in range(len(a)):
+        if a[i]!=b[i]:
+            flag=False
+            break
+print(flag)
     
 
         
