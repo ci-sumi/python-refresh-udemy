@@ -2582,9 +2582,14 @@ a=[-10,15,0,20,-5,30,-2]
 # idx=random.randint(0,len(a)-1)
 # print(idx)
 #Using random.sample()
-import random
+# import random
+# a=[1,4,5,2,7]
+# res=random.sample(a,1)[0]
+# print(res)
+# using numpy.random.choice
+import numpy as np
 a=[1,4,5,2,7]
-res=random.sample(a,1)[0]
+res=np.random.choice(a)
 print(res)
     
     
