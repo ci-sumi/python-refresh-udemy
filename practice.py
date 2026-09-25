@@ -2609,8 +2609,11 @@ b=[1,2,4]
 # print(flag)
 # Get the Last Element of List in Python
 #Using negative indexing
+# a=[1,2,3,4,5]
+# print(a[-1])
 a=[1,2,3,4,5]
-print(a[-1])
+le=a[len(a)-1]
+print(a)
 
 
 
