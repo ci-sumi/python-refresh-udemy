@@ -2611,10 +2611,15 @@ b=[1,2,4]
 #Using negative indexing
 # a=[1,2,3,4,5]
 # print(a[-1])
+# a=[1,2,3,4,5]
+# le=a[len(a)-1]
+# print(a)
+# a=[1,2,3,4,5]
+# le=a[-1:]
+# print(le)
+#Using Pop method
 a=[1,2,3,4,5]
-le=a[len(a)-1]
-print(a)
-
+print(a.pop())
 
 
 
