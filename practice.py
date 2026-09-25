@@ -2618,8 +2618,13 @@ b=[1,2,4]
 # le=a[-1:]
 # print(le)
 #Using Pop method
-a=[1,2,3,4,5]
-print(a.pop())
+# a=[1,2,3,4,5]
+# print(a.pop())
+# Remove None values from list without removing 0 value
+#Using List Comprehension 
+a=[1,None,3,None,5,0]
+result=[x for x in a if x is not None]
+print(result)
 
 
 
