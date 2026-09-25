@@ -2605,10 +2605,12 @@ b=[1,2,4]
 #             flag=False
 #             break
 # print(flag)
-flag=all(x==y for x,y in zip(a,b))
-print(flag)
-
-        
+# flag=all(x==y for x,y in zip(a,b))
+# print(flag)
+# Get the Last Element of List in Python
+#Using negative indexing
+a=[1,2,3,4,5]
+print(a[-1])
 
 
 
