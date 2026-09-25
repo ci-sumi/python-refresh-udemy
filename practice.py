@@ -2622,9 +2622,13 @@ b=[1,2,4]
 # print(a.pop())
 # Remove None values from list without removing 0 value
 #Using List Comprehension 
-a=[1,None,3,None,5,0]
-result=[x for x in a if x is not None]
-print(result)
+# a=[1,None,3,None,5,0]
+# result=[x for x in a if x is not None]
+# print(result)
+#Using Filter()
+a=[1,None,3,0,None,5]
+b=list(filter(lambda x:x is not None,a))
+print(b)
 
 
 
