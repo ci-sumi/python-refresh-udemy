@@ -2626,9 +2626,28 @@ b=[1,2,4]
 # result=[x for x in a if x is not None]
 # print(result)
 #Using Filter()
-a=[1,None,3,0,None,5]
-b=list(filter(lambda x:x is not None,a))
-print(b)
+# a=[1,None,3,0,None,5]
+# b=list(filter(lambda x:x is not None,a))
+# print(b)
+# import itertools
+# a=[1,None,3,None,0,5]
+# b=list(itertools.filterfalse(lambda x:x is None,a))
+# print(b)
+# Using del Keyword
+# a=[1,None,3,0,None,5]
+# i=0
+# while i<len(a):
+#     if a[i] is None:
+#         del a[i]
+#     else:
+#         i+=1
+# print(a)
+# Print all Common Elements of Two Lists
+a=[1,2,3,4,5]
+b=[4,5,6,7,8]
+res=list(set(a) & set(b))
+print(res)
+        
 
 
 
