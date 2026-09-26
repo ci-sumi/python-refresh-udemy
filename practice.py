@@ -2643,10 +2643,14 @@ b=[1,2,4]
 #         i+=1
 # print(a)
 # Print all Common Elements of Two Lists
-a=[1,2,3,4,5]
+# a=[1,2,3,4,5]
+# b=[4,5,6,7,8]
+# res=list(set(a) & set(b))
+# print(res)
+a=[1,2,3,4]
 b=[4,5,6,7,8]
-res=list(set(a) & set(b))
-print(res)
+resulst=[x for x in a if x in b]
+print(resulst)
         
 
 
