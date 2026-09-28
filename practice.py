@@ -2656,18 +2656,29 @@ b=[1,2,4]
 # res=list(filter(lambda x:x in b ,a))
 # print(res)
 # Position of maximum and minimum element in a list - Python
-a=[3,5,7,2,8,1]
-# max=3
+# a=[3,5,7,2,8,1]
+# # max=3
+# # for i in a:
+# #     if i >max:
+# #         max=i
+# # print(max)
+# min=8
 # for i in a:
-#     if i >max:
-#         max=i
-# print(max)
-min=8
-for i in a:
-    if i<min:
-        min=i
-print(i)
-        
+#     if i<min:
+#         min=i
+# print(i)
+a=[3,5,7,2,8,1]
+mxv=mnv=a[0]
+mxp=mnp=0
+for i ,value in enumerate(a):
+    if value>mxv:
+        mxv=value
+        mxp=i
+    if value<mnv:
+        mnv=value
+        mnp=i
+print(mxv)
+print(mnv)
 
 
 
