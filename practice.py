@@ -2647,10 +2647,21 @@ b=[1,2,4]
 # b=[4,5,6,7,8]
 # res=list(set(a) & set(b))
 # print(res)
-a=[1,2,3,4]
-b=[4,5,6,7,8]
-resulst=[x for x in a if x in b]
-print(resulst)
+# a=[1,2,3,4]
+# b=[4,5,6,7,8]
+# resulst=[x for x in a if x in b]
+# print(resulst)
+# a=[1,2,3,4]
+# b=[4,5,6,7,8]
+# res=list(filter(lambda x:x in b ,a))
+# print(res)
+# Position of maximum and minimum element in a list - Python
+a=[3,5,7,2,8,1]
+max=3
+for i in a:
+    if i >max:
+        max=i
+print(max)
         
 
 
