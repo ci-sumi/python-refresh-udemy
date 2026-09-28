@@ -2657,11 +2657,16 @@ b=[1,2,4]
 # print(res)
 # Position of maximum and minimum element in a list - Python
 a=[3,5,7,2,8,1]
-max=3
+# max=3
+# for i in a:
+#     if i >max:
+#         max=i
+# print(max)
+min=8
 for i in a:
-    if i >max:
-        max=i
-print(max)
+    if i<min:
+        min=i
+print(i)
         
 
 
