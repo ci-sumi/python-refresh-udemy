@@ -2667,18 +2667,30 @@ b=[1,2,4]
 #     if i<min:
 #         min=i
 # print(i)
+# a=[3,5,7,2,8,1]
+# mxv=mnv=a[0]
+# mxp=mnp=0
+# for i ,value in enumerate(a):
+#     if value>mxv:
+#         mxv=value
+#         mxp=i
+#     if value<mnv:
+#         mnv=value
+#         mnp=i
+# print(mxv)
+# print(mnv)
 a=[3,5,7,2,8,1]
-mxv=mnv=a[0]
-mxp=mnp=0
-for i ,value in enumerate(a):
-    if value>mxv:
-        mxv=value
+mxv =mnv =a[0]
+mxp=mnp =0
+for i in range(len(a)):
+    if a[i]>mxv:
+        mxv=a[i]
         mxp=i
-    if value<mnv:
-        mnv=value
-        mnp=i
-print(mxv)
-print(mnv)
+    if a[i]<mnv:
+        mnv=a[i]
+        mnp=a[i]
+print(mxp)
+print(mnp)
 
 
 
