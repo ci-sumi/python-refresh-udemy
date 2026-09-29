@@ -2679,19 +2679,31 @@ b=[1,2,4]
 #         mnp=i
 # print(mxv)
 # print(mnv)
-a=[3,5,7,2,8,1]
-mxv =mnv =a[0]
-mxp=mnp =0
-for i in range(len(a)):
-    if a[i]>mxv:
-        mxv=a[i]
-        mxp=i
-    if a[i]<mnv:
-        mnv=a[i]
-        mnp=a[i]
-print(mxp)
-print(mnp)
-
+# a=[3,5,7,2,8,1]
+# mxv =mnv =a[0]
+# mxp=mnp =0
+# for i in range(len(a)):
+#     if a[i]>mxv:
+#         mxv=a[i]
+#         mxp=i
+#     if a[i]<mnv:
+#         mnv=a[i]
+#         mnp=a[i]
+# print(mxp)
+# print(mnp)
+# Using NumPy argmax, argmin
+import numpy as np
+def min_max_pos(a):
+    ar =np.array(a)
+    mxp=np.argmax(ar)
+    mnp=np.argmin(ar)
+    print(mxp)
+    print(mnp)
+    
+    
+a=[3,5,7,2,8,1]    
+min_max_pos(a)
+    
 
 
 
