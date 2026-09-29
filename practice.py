@@ -2692,20 +2692,24 @@ b=[1,2,4]
 # print(mxp)
 # print(mnp)
 # Using NumPy argmax, argmin
-import numpy as np
-def min_max_pos(a):
-    ar =np.array(a)
-    mxp=np.argmax(ar)
-    mnp=np.argmin(ar)
-    print(mxp)
-    print(mnp)
+# import numpy as np
+# def min_max_pos(a):
+#     ar =np.array(a)
+#     mxp=np.argmax(ar)
+#     mnp=np.argmin(ar)
+#     print(mxp)
+#     print(mnp)
     
     
-a=[3,5,7,2,8,1]    
-min_max_pos(a)
-    
-
-
+# a=[3,5,7,2,8,1]    
+# min_max_pos(a)
+# Using Sorted()
+a=[3,5,7,2,8,1]
+s=sorted(a)
+mxp=a.index(s[-1])
+mvp=a.index(s[0])
+print(mxp)
+print(mvp)
 
 
     
