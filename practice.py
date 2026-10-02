@@ -2720,6 +2720,17 @@ b=[1,2,34]
 # for j in b:
 #     result.append(j)
 # print(result)
+# u=list(set(a).union(b))
+# print(u)
+
+# u=list(set(a)|set(b))
+# print(u)
+import numpy as np
+a=[1,2,3,4]
+b=[3,4,5,6]
+u=np.union1d(a,b)
+print(u)
+
     
 
     
