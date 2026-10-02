@@ -2725,12 +2725,28 @@ b=[1,2,34]
 
 # u=list(set(a)|set(b))
 # print(u)
-import numpy as np
-a=[1,2,3,4]
-b=[3,4,5,6]
-u=np.union1d(a,b)
-print(u)
+# import numpy as np
+# a=[1,2,3,4]
+# b=[3,4,5,6]
+# u=np.union1d(a,b)
+# print(u)
+# You are given a number k and a list arr[] that contains integers. 
+# You need to return list of numbers that are less than k.
+class solution:
+    def lessthan(self,arr,k):
+        result=[]
+        for i in arr:
+            if i<k:
+                result.append(i)
+        return result
 
+s=solution()
+arr = [54, 43, 2, 1, 5]
+k=6
+print(s.lessthan(arr,k))
+    
+
+        
     
 
     
