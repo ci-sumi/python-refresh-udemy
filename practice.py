@@ -2704,14 +2704,22 @@ b=[1,2,4]
 # a=[3,5,7,2,8,1]    
 # min_max_pos(a)
 # Using Sorted()
-a=[3,5,7,2,8,1]
-s=sorted(a)
-mxp=a.index(s[-1])
-mvp=a.index(s[0])
-print(mxp)
-print(mvp)
+# a=[3,5,7,2,8,1]
+# s=sorted(a)
+# mxp=a.index(s[-1])
+# mvp=a.index(s[0])
+# print(mxp)
+# print(mvp)
+# Python - Union of Two or More Lists
 
-
+a=[1,2,3,4]
+b=[1,2,34]
+# result=[]
+# for i in a:
+#     result.append(i)
+# for j in b:
+#     result.append(j)
+# print(result)
     
 
     
