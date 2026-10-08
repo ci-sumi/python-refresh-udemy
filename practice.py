@@ -2732,18 +2732,37 @@ b=[1,2,34]
 # print(u)
 # You are given a number k and a list arr[] that contains integers. 
 # You need to return list of numbers that are less than k.
-class solution:
-    def lessthan(self,arr,k):
-        result=[]
-        for i in arr:
-            if i<k:
-                result.append(i)
-        return result
+# class solution:
+#     def lessthan(self,arr,k):
+#         result=[]
+#         for i in arr:
+#             if i<k:
+#                 result.append(i)
+#         return result
 
-s=solution()
-arr = [54, 43, 2, 1, 5]
-k=6
-print(s.lessthan(arr,k))
+# s=solution()
+# arr = [54, 43, 2, 1, 5]
+# k=6
+# print(s.lessthan(arr,k))
+# Mean or average of an array
+import math
+class solution:
+    def findmean(self,arr):
+        s_length=len(arr)
+        sum=0
+        for i in arr:
+            sum=i+sum
+        result=sum/s_length
+        return math.floor(result)
+    
+            
+        
+        
+
+arr=[1,2,3,4,5,6]
+s1=solution()
+print(s1.findmean(arr))
+
     
 
         
