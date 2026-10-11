@@ -2745,23 +2745,39 @@ b=[1,2,34]
 # k=6
 # print(s.lessthan(arr,k))
 # Mean or average of an array
-import math
-class solution:
-    def findmean(self,arr):
-        s_length=len(arr)
-        sum=0
+# import math
+# class solution:
+#     def findmean(self,arr):
+#         s_length=len(arr)
+#         sum=0
+#         for i in arr:
+#             sum=i+sum
+#         result=sum/s_length
+#         return math.floor(result)
+# Segregate Even and Odd numbers
+class Solution:
+    def segregateEvenOdd(self,arr):
+        even=[]
+        odd=[]
         for i in arr:
-            sum=i+sum
-        result=sum/s_length
-        return math.floor(result)
+            if i%2!=0:
+                odd.append(i)
+            else:
+                even.append(i)
+        return even,odd
+    
+ 
+arr=[1,2,3,4]   
+result=Solution()
+print(result.segregateEvenOdd(arr))
     
             
         
         
 
 arr=[1,2,3,4,5,6]
-s1=solution()
-print(s1.findmean(arr))
+s1=Solution()
+s1.segregateEvenOdd(arr)
 
     
 
