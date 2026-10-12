@@ -2786,6 +2786,14 @@ class Solution:
 #     print("There is no second largest number exists")
 # else:
 #     print("Second largest",unique_numbers[-2])
+numbers=[10,20,4,45,99,99,4]
+largest=max(numbers)
+print(largest)
+remaining_numbers=[x for x in numbers if x !=largest]
+if not remaining_numbers:
+    print("No second largest number exists")
+else:
+    print("Second largest",max(remaining_numbers))
 
 
         
