@@ -2786,14 +2786,29 @@ class Solution:
 #     print("There is no second largest number exists")
 # else:
 #     print("Second largest",unique_numbers[-2])
-numbers=[10,20,4,45,99,99,4]
-largest=max(numbers)
-print(largest)
-remaining_numbers=[x for x in numbers if x !=largest]
-if not remaining_numbers:
-    print("No second largest number exists")
-else:
-    print("Second largest",max(remaining_numbers))
+# numbers=[10,20,4,45,99,99,4]
+# largest=max(numbers)
+# print(largest)
+# remaining_numbers=[x for x in numbers if x !=largest]
+# if not remaining_numbers:
+#     print("No second largest number exists")
+# else:
+#     print("Second largest",max(remaining_numbers))
+
+def get_second_largest(lst):
+    if len(lst)<2:
+        return None
+    largest=second_largest=-float('inf')
+    for num in lst:
+        if num>largest:
+            second_largest=largest
+            largest=num
+        elif num>second_largest and num!=largest:
+            second_largest=num
+    return second_largest
+
+numbers=[10, 20, 4, 45, 99, 99, 4]
+print("Second largest",get_second_largest(numbers))
 
 
         
