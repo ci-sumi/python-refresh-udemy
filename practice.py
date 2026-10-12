@@ -2767,19 +2767,25 @@ class Solution:
         return even,odd
     
  
-arr=[1,2,3,4]   
-result=Solution()
-print(result.segregateEvenOdd(arr))
+# arr=[1,2,3,4]   
+# result=Solution()
+# print(result.segregateEvenOdd(arr))
     
             
         
         
 
-arr=[1,2,3,4,5,6]
-s1=Solution()
-s1.segregateEvenOdd(arr)
+# arr=[1,2,3,4,5,6]
+# s1=Solution()
+# s1.segregateEvenOdd(arr)
 
-    
+numbers = [10, 20, 4, 45, 99, 99, 4]
+unique_numbers = list(set(numbers))
+print(unique_numbers)
+if len(unique_numbers) <2:
+    print("There is no second largest number exists")
+else:
+    print("Second largest",unique_numbers[-2])
 
         
     
