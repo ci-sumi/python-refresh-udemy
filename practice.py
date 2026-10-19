@@ -2795,21 +2795,27 @@ class Solution:
 # else:
 #     print("Second largest",max(remaining_numbers))
 
-def get_second_largest(lst):
-    if len(lst)<2:
-        return None
-    largest=second_largest=-float('inf')
-    for num in lst:
-        if num>largest:
-            second_largest=largest
-            largest=num
-        elif num>second_largest and num!=largest:
-            second_largest=num
-    return second_largest
+def third_largest(arr):
+    first=second=third=float('-inf')
+    for num in arr:
+        if num==first or num==second or num==third:
+            continue
+        if num>first:
+            third=second
+            second=first
+            first=num
+        elif num>second:
+            third=second
+            second=num
+        elif num>third:
+            third=num
+            
+    return third if third !=float('-inf') else -1
 
-numbers=[10, 20, 4, 45, 99, 99, 4]
-print("Second largest",get_second_largest(numbers))
-
+arr=[1,2,3,4]
+print(third_largest(arr))
+            
+            
 
         
     
